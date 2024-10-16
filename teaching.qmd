@@ -12,4 +12,4 @@ title: "Teaching"
 
 ## Wages and Employment (Econ 8502, PhD)
 
-Despite the name, [a second year PhD course](http://www.josephlyonmullins.com/structural-methods/) covering methods in structural econometrics, with an emphasis on identification and estimation of dynamic structural models.
+Despite the name, [a second year PhD course](https://josephmullins.github.io/structural-methods/) covering methods in structural econometrics, with an emphasis on identification and estimation of dynamic structural models.
