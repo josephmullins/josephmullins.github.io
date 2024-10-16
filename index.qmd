@@ -1,5 +1,5 @@
 ---
-title: "Joseph Mullins"
+title: "About"
 ---
 
 I'm an Assistant Professor of Economics at the University of Minnesota. Find my [research](research.qmd) here and [my CV here](Mullins_CV.pdf). I teach [three classes](teaching.qmd) periodically.
