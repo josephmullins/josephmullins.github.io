@@ -2,6 +2,4 @@
 title: "Joseph Mullins"
 ---
 
-I'm an Assistant Professor of Economics at the University of Minnesota. Find my research here. My CV is here.
-
-I teach three courses...
+I'm an Assistant Professor of Economics at the University of Minnesota. Find my [research](research.qmd) here and [my CV here](Mullins_CV.pdf). I teach [three classes](teaching.qmd) periodically.
