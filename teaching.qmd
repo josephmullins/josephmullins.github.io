@@ -4,12 +4,12 @@ title: "Teaching"
 
 ## Introduction to Econometrics (Econ 4261, Undergraduate)
 
-[A first course](josephlyonmullins.com/Econ4261) in econometrics for students with knowledge of statistics and linear algebra.
+[A first course](http://www.josephlyonmullins.com/Econ4261/) in econometrics for students with knowledge of statistics and linear algebra.
 
 ## Applied Econometrics (Econ 8208, PhD)
 
-[A first year PhD course](josephlyonmullins.com/econometrics-phd) in structural econometrics.
+[A first year PhD course](http://www.josephlyonmullins.com/econometrics-phd/) in structural econometrics.
 
 ## Wages and Employment (Econ 8502, PhD)
 
-Despite the name, [a second year PhD course](josephlyonmullins.com/structural-methods) covering methods in structural econometrics, with an emphasis on identification and estimation of dynamic structural models.
+Despite the name, [a second year PhD course](http://www.josephlyonmullins.com/structural-methods/) covering methods in structural econometrics, with an emphasis on identification and estimation of dynamic structural models.
