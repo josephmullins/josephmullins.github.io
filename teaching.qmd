@@ -1,5 +1,9 @@
 ---
 title: "Teaching"
+format:
+    html:
+        toc: false
+
 ---
 
 ## Introduction to Econometrics (Econ 4261, Undergraduate)

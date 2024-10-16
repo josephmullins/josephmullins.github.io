@@ -1,5 +1,8 @@
 ---
 title: "Research"
+format:
+    html:
+        toc: false
 ---
 
 ## Recently Accepted
