@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -7,11 +14,11 @@
     "text": "Family Law Effects on Divorce, Fertility, and Child Investment, with Meta Brown and Christopher Flinn: accepted at the Journal of Labor Economics (replication files)\nA Structural Meta-analysis of Welfare Reform Experiments and Their Impacts on Children: accepted at the Journal of Political Economy (appendix, replication files)"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "research.html#recently-accepted",
+    "href": "research.html#recently-accepted",
+    "title": "Research",
     "section": "",
-    "text": "About this site"
+    "text": "Family Law Effects on Divorce, Fertility, and Child Investment, with Meta Brown and Christopher Flinn: accepted at the Journal of Labor Economics (replication files)\nA Structural Meta-analysis of Welfare Reform Experiments and Their Impacts on Children: accepted at the Journal of Political Economy (appendix, replication files)"
   },
   {
     "objectID": "research.html#working-papers",
@@ -28,10 +35,10 @@
     "text": "Publications\nLabor Market Search and Schooling Investment, with Christopher Flinn, International Economic Review 50 (May 2015)"
   },
   {
-    "objectID": "research.html#recently-accepted",
-    "href": "research.html#recently-accepted",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joseph Mullins",
     "section": "",
-    "text": "Family Law Effects on Divorce, Fertility, and Child Investment, with Meta Brown and Christopher Flinn: accepted at the Journal of Labor Economics (replication files)\nA Structural Meta-analysis of Welfare Reform Experiments and Their Impacts on Children: accepted at the Journal of Political Economy (appendix, replication files)"
+    "text": "I’m an Assistant Professor of Economics at the University of Minnesota. Find my research here. My CV is here.\nI teach three courses…"
   }
 ]
