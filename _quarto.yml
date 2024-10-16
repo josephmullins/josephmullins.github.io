@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "josephmullins.github.io"
+  title: "Joseph Mullins"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - research.qmd
 
 format:
   html:
