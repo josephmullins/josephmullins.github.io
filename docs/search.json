@@ -68,5 +68,306 @@
     "title": "About",
     "section": "",
     "text": "I’m an Assistant Professor of Economics at the University of Minnesota. Find my research here and my CV here. I teach three classes periodically."
+  },
+  {
+    "objectID": "research.html#other",
+    "href": "research.html#other",
+    "title": "Research",
+    "section": "Other",
+    "text": "Other\nWhat’s next for the economics of child development? (a keynote talk delivered at OzMac 2024)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html",
+    "href": "slides/mullins_keynote_ozmac.html",
+    "title": "What’s next for the economics of child development?",
+    "section": "",
+    "text": "You invited me for a keynote and it went to my head immediately\nI want to do something extremely pretentious: set an agenda for this field\nTry to convince you that:\n\nWe’ve made good progress; and\nThat there is much more exciting work to do (especially in Macro)\n\nFull disclosure: this is coming from someone who spends 90% of his time screaming at a computer"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#intro",
+    "href": "slides/mullins_keynote_ozmac.html#intro",
+    "title": "What’s next for the economics of child development?",
+    "section": "Intro",
+    "text": "Intro\n\n\nYou invited me for a keynote and it went to my head immediately\nI want to do something extremely pretentious: set an agenda for this field\nTry to convince you that:\n\nWe’ve made good progress; and\nThat there is much more exciting work to do (especially in Macro)\n\nFull disclosure: this is coming from someone who spends 90% of his time screaming at a computer"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#a-research-program-that-stands-on-two-facts",
+    "href": "slides/mullins_keynote_ozmac.html#a-research-program-that-stands-on-two-facts",
+    "title": "What’s next for the economics of child development?",
+    "section": "A Research Program that Stands on Two Facts",
+    "text": "A Research Program that Stands on Two Facts\n\n\nMost life-cycle inequality can be explained by pre-labor market factors (e.g. Keane and Wolpin (1997), Huggett, Ventura, and Yaron (2011))\nThese skills and traits are partly shaped by environment, hence malleable to policy\n\n\n\nThe evidence suggests several key windows of opportunity in which to make equitable and efficient investments in human capital"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#outline",
+    "href": "slides/mullins_keynote_ozmac.html#outline",
+    "title": "What’s next for the economics of child development?",
+    "section": "Outline:",
+    "text": "Outline:\n\n\nReview the evidence\nBecker and Tomes (1979): an easily extendable prototype model\nApplications of the framework\nWhere to next?"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#summary",
+    "href": "slides/mullins_keynote_ozmac.html#summary",
+    "title": "What’s next for the economics of child development?",
+    "section": "Summary",
+    "text": "Summary\nFour categories\n\n\nExperimental evidence on primates and other mammals (too large, won’t cover)\n\nEffect of deprivation/nurturing on grey matter, spinal dendritic density, neuroendocrine system, gene expression (Grantham-McGregor et al. 2007)\n\nEarly childhood education (experimental)\n\nPerry (Heckman et al. 2010), ABC / CARES (García et al. 2020)\n\nHome visiting programs (experimental)\n\ne.g. Colombia (Attanasio et al. 2014), Jamaica, (Gertler et al. 2014), India (Andrew et al. 2020)\n\nPublic investments (quasi-experimental)\n\nMedicaid (Goodman-Bacon 2021), Head Start (Martha J. Bailey, Sun, and Timpe 2021), Food Stamps (Martha J. Bailey et al. 2024), Child Tax Credit (Barr, Eggleston, and Smith 2022), Moving to Opportunity (Chetty and Hendren 2018)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#abecedarian-and-cares-program",
+    "href": "slides/mullins_keynote_ozmac.html#abecedarian-and-cares-program",
+    "title": "What’s next for the economics of child development?",
+    "section": "Abecedarian and CARES Program",
+    "text": "Abecedarian and CARES Program\n\n\n\n\n\n\n\nSource: García et al. (2020)\n\n\nhigh risk kids 0-5\nfull-day care\nhealth and social services\nfamily support"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#head-start",
+    "href": "slides/mullins_keynote_ozmac.html#head-start",
+    "title": "What’s next for the economics of child development?",
+    "section": "Head Start",
+    "text": "Head Start\n\n\n\n\n\n\n\nSource: Martha J. Bailey, Sun, and Timpe (2021)\n\n\nstaggered adoption by counties (1965 - 1980)\nages 3-5\n\\(\\approx\\) families below FPL"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#medicaid",
+    "href": "slides/mullins_keynote_ozmac.html#medicaid",
+    "title": "What’s next for the economics of child development?",
+    "section": "Medicaid",
+    "text": "Medicaid\n\nSource: Goodman-Bacon (2021)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#child-tax-credit",
+    "href": "slides/mullins_keynote_ozmac.html#child-tax-credit",
+    "title": "What’s next for the economics of child development?",
+    "section": "Child Tax Credit",
+    "text": "Child Tax Credit\n\nSource: Barr, Eggleston, and Smith (2022)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#the-becker-framework-1",
+    "href": "slides/mullins_keynote_ozmac.html#the-becker-framework-1",
+    "title": "What’s next for the economics of child development?",
+    "section": "The Becker Framework",
+    "text": "The Becker Framework\n\n\nHuman capital produced with investments\n\nBecker (2010), Becker and Tomes (1979) \\[ \\theta_{t+1} = f(\\theta_{t},I_{t}) \\]\n\\(t\\) can index generations or periods of development\n\nConsistent with large literature on human development (Cunha and Heckman 2007)\nQuantitatively, \\(\\theta\\) and \\(I\\) may be substitutes in early life (Cunha, Heckman, and Schennach 2010)\nThese periods of developmental sensitivity are windows of opportunity for public investment\nBypass equity-efficiency tradeoffs that appear later in life (Cunha and Heckman 2007)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#the-model",
+    "href": "slides/mullins_keynote_ozmac.html#the-model",
+    "title": "What’s next for the economics of child development?",
+    "section": "The Model",
+    "text": "The Model\n\n\n\n\nGenerations indexed by \\(t\\)\nEndowments, \\(y\\), a function of skills, \\(\\theta\\)\nInvestment, \\(I\\)\nA one period bond, \\(A\\)\nThe technology: \\(\\theta_{t+1} = f(\\theta_{t},I_{t})\\)\n\n\n\n\nRecursive formulation: \\[ V(A,\\theta) = \\max_{I,C,A}\\left\\{u(C) + \\beta V(A',\\theta') \\right\\} \\] s.t. \\[ C + pI + A' \\leq y(\\theta) + A(1+r) \\] \\[ A' \\geq 0 \\]\n\n\n\n\nNote:\n\n\\(C\\) and \\(I\\) can be composite goods e.g. time and money (Del Boca, Flinn, and Wiswall 2014)\ncan extend to multiple skills, periods of investment, inputs"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#application-incomplete-markets",
+    "href": "slides/mullins_keynote_ozmac.html#application-incomplete-markets",
+    "title": "What’s next for the economics of child development?",
+    "section": "Application: Incomplete Markets",
+    "text": "Application: Incomplete Markets\n\n\nIf \\(A'\\geq0\\) not a constraint, returns on \\(I\\) and \\(A\\) are equal\n\n\\(f_{2}(\\theta, I) = (1+r)\\) \\(\\Rightarrow\\) no role for endowments\n\nMarket incompleteness is therefore key for understanding data and providing a role for policy\nUninsured income risk also distorts timing of investments\nQuantitatively, binding constraints in any period matter for all periods (Caucutt and Lochner 2020)\nAge-dependent transfers that resolve these inefficiencies \\(\\approx\\) 5% cev (Abbott 2022)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022",
+    "href": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022",
+    "title": "What’s next for the economics of child development?",
+    "section": "Application: Designing Cash Transfers (Mullins 2022)",
+    "text": "Application: Designing Cash Transfers (Mullins 2022)\nConsider a non-linear tax problem a la Diamond (1980):\n\nA planner choosing income \\(y(e)\\) for all earnings \\(e\\)\nHouseholds of type \\(e\\) choosing \\(\\{0,e\\}\\)\n\n\nA marginal increase in \\(y(e)\\)…\n\n\n\nClassic PF \\[\\text{direct:}\\ \\mu(e)P(e)u_{c}({y}(e)) - {{\\lambda}}\\] \\[\\text{behavioral:}\\ + {\\lambda}\\frac{\\partial P(e)}{\\partial{y}(e)}\\left(e - {y}(e) + {y}(0)\\right)\\]\n\n\n\nNew Channel \\[ +\\ \\lambda\\times{\\text{Marginal effect of income on skills}} \\] \\[ +\\  {\\lambda}\\frac{\\partial P(e)}{\\partial{y}(e)}\\times{\\text{Net effect of employment on skills}}\\]"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022-1",
+    "href": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022-1",
+    "title": "What’s next for the economics of child development?",
+    "section": "Application: Designing Cash Transfers (Mullins 2022)",
+    "text": "Application: Designing Cash Transfers (Mullins 2022)\n\n\nTo quantify the mechanism, estimate a dynamic model of work, program participation and investment in children\nFactor shares of time and money inputs play crucial and intuitive role in planner’s problem\n\\(\\delta_{x}\\ \\uparrow\\) program more generous\n\\(\\delta_{\\tau}/\\delta_{x}\\ \\uparrow\\) fewer work subsidies\nEstimate the model on single mothers with rich unobserved heterogeneity in labor market productivity, work costs and program participation costs.\nUse welfare reform and EITC expansions to form instruments for \\(\\delta_{x}\\) and \\(\\delta_{\\tau}\\)\nAn optimal program is 20-25% more generous than US baseline in 2000"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022-2",
+    "href": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022-2",
+    "title": "What’s next for the economics of child development?",
+    "section": "Application: Designing Cash Transfers (Mullins 2022)",
+    "text": "Application: Designing Cash Transfers (Mullins 2022)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#application-direct-public-investment",
+    "href": "slides/mullins_keynote_ozmac.html#application-direct-public-investment",
+    "title": "What’s next for the economics of child development?",
+    "section": "Application: Direct Public Investment",
+    "text": "Application: Direct Public Investment\n\nSource: García et al. (2020)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#application-direct-public-investment-1",
+    "href": "slides/mullins_keynote_ozmac.html#application-direct-public-investment-1",
+    "title": "What’s next for the economics of child development?",
+    "section": "Application: Direct Public Investment",
+    "text": "Application: Direct Public Investment\n\n\nDaruich (2023) models this intervention as a direct monetary investment equal to the cost of the program\n\nusing Cunha, Heckman, and Schennach (2010) estimates\n\nthis seems to work remarkably well (gets close to the treatment impact on earnings)\neven seems to match the impact on “scaled up” programs (Head Start)\nlarge welfare gains: 12% cev in long-run\na key source: dynamic complementarity across generations\nevidence is more scant on some of the major components of the mechanism"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#application-neighborhoods",
+    "href": "slides/mullins_keynote_ozmac.html#application-neighborhoods",
+    "title": "What’s next for the economics of child development?",
+    "section": "Application: Neighborhoods",
+    "text": "Application: Neighborhoods\n\n\n\n\n\n\n\nSource: Chetty and Hendren (2018)\n\n\nFogli and Guerrieri (2019) and Chyn and Daruich (2022) model neighborhoods inputs as mean income\nZheng and Graham (2022) study the effect of locally financed local schooling inputs"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#other-applications",
+    "href": "slides/mullins_keynote_ozmac.html#other-applications",
+    "title": "What’s next for the economics of child development?",
+    "section": "Other Applications",
+    "text": "Other Applications\n\nChildcare\n\nMoschini (2023) studies the macroeconomic impact of childcare subsidies\nGarcia-Vazquez (2024) studies the distributional impacts of regulations\n\n\n\n\nMarital Law\n\nBrown, Flinn, and Mullins (2024) study the effects of family law on fertility, divorce, and cognitive skill outcomes\nunilateral vs mutual consent, child support, child custody\ncomplicated dynamic interplay between policies"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#looking-ahead",
+    "href": "slides/mullins_keynote_ozmac.html#looking-ahead",
+    "title": "What’s next for the economics of child development?",
+    "section": "Looking ahead",
+    "text": "Looking ahead\n\nCredibility\nWidening scope\n\nInputs and Outputs\nMechanism behind returns"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#credibility-an-example",
+    "href": "slides/mullins_keynote_ozmac.html#credibility-an-example",
+    "title": "What’s next for the economics of child development?",
+    "section": "Credibility: An example",
+    "text": "Credibility: An example\nSuppose that a key piece of the model is:\n\\[ \\theta_{t+1} = z [\\alpha I^\\rho + (1-\\alpha)\\theta_{t}^\\rho]^{1/\\rho} \\]\nwith \\(I = x^{\\delta}\\tau^{1-\\delta}\\).\n\nA common strategy in Macro:\n\n\nCalibrate model to cross-sectional moments\n\ne.g. Match average test scores by age of child and by parental income, average expenditures on children (CEX), average time inputs (ATUS)\n\nValidate the model by replicating a known research design inside the model\n\ne.g. “Person, Guy & Fellah (2014) find that a 10% increase in income for population \\(X\\) leads to a 5% increase in test scores. We simulate a 10% income increase in income and find that it results in a 6% increase in test scores, which validates a key quantitative mechanism in our model.”"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#credibility",
+    "href": "slides/mullins_keynote_ozmac.html#credibility",
+    "title": "What’s next for the economics of child development?",
+    "section": "Credibility",
+    "text": "Credibility\n\n\nI wrote this slide because I wanted to complain about this practice, but I came around as I wrote it down…\nThe good:\n\nWe are seeing more and more of these types of validation exercises\nIt adds credibility while keeping the model accountable to first order features of the data"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#example-mullins_designing_2022",
+    "href": "slides/mullins_keynote_ozmac.html#example-mullins_designing_2022",
+    "title": "What’s next for the economics of child development?",
+    "section": "Example: Mullins (2022)",
+    "text": "Example: Mullins (2022)\nModel produces a linear outcome equation:\n\\[ \\log(\\theta_{i,t+1}) = \\mu_{k(i)} + \\delta_{x}\\log\\left(\\text{net income}_{i,t}\\right) + \\delta_{\\tau}\\log\\left(\\text{non-market time}_{i,t}\\right) + \\varepsilon_{i,t} \\]\n\nTwo strategies:\n\nUses policy variation across states and over time to form instruments\nUse panel data to invert out type \\(k(i)\\) and control directly for sources of endogeneity\nEstimate both with GMM and compare"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#example-mullins_structural_2024",
+    "href": "slides/mullins_keynote_ozmac.html#example-mullins_structural_2024",
+    "title": "What’s next for the economics of child development?",
+    "section": "Example: Mullins (2024)",
+    "text": "Example: Mullins (2024)\n\nBuild on the dynamic model of Mullins (2022)\nUse it to aggregate evidence from 3 welfare reform experiments across 6 sites\nExperimental welfare programs differed in their use of (1) benefit formulae; (2) time limits; (3) work requirements; (4) childcare subsidies\nUse model to make sense of differences in treatment effects on child outcomes, work, and welfare participation\nCall this a structural meta-analysis."
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#well-articulated-variation",
+    "href": "slides/mullins_keynote_ozmac.html#well-articulated-variation",
+    "title": "What’s next for the economics of child development?",
+    "section": "Well-articulated variation",
+    "text": "Well-articulated variation\n\n\nSay that a source of variation is well-articulated inside the model if it can be replicated in an a priori known way\nBest example: known changes to prices or endowments in the model\n\nBenefit formulae, childcare subsidies, and time limits are all well-articulated\nWork requirements are not (must be parameterized and estimated)\n\nAny model can be held accountable to empirical evidence that is well-articulated\nA structural meta-analysis begins by identifying all sources of evidence that are well-articulated inside the model\nModels are well-suited to the task of rigorously aggregating evidence!"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#early-childhood-programs",
+    "href": "slides/mullins_keynote_ozmac.html#early-childhood-programs",
+    "title": "What’s next for the economics of child development?",
+    "section": "Early Childhood Programs",
+    "text": "Early Childhood Programs\n\n\n\n\n\n\n\n\nThe most promising interventions are hard to articulate inside a standard model\nWhat is quality? How do parenting interventions work?\nFace well-known scaling issues\nBegging for new models and new attempts to understand"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#fadeout",
+    "href": "slides/mullins_keynote_ozmac.html#fadeout",
+    "title": "What’s next for the economics of child development?",
+    "section": "Fadeout",
+    "text": "Fadeout"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#reviewing-inputs-and-outputs",
+    "href": "slides/mullins_keynote_ozmac.html#reviewing-inputs-and-outputs",
+    "title": "What’s next for the economics of child development?",
+    "section": "Reviewing inputs and outputs",
+    "text": "Reviewing inputs and outputs\n\n\n\nPaper\nInputs\nOutputs\n\n\n\n\nCaucutt and Lochner (2020)\nMoney\nCog.\n\n\nAbbott (2022)\nMoney & Time\nCog.\n\n\nDel Boca, Flinn, and Wiswall (2014)\nMoney & Time\nCog.\n\n\nDaruich (2023)\nMoney & Time\nCog. and “Non-Cog”\n\n\nMullins (2022)\nMoney & Time\nCog. and Behavioral\n\n\nMoschini (2023)\nTime & Childcare\nCog.\n\n\nCaucutt et al. (2024)\nMoney, Time & Childcare\nCog.\n\n\nZheng and Graham (2022)\nMoney & School Quality\nIncome"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#reviewing-inputs-and-outputs-1",
+    "href": "slides/mullins_keynote_ozmac.html#reviewing-inputs-and-outputs-1",
+    "title": "What’s next for the economics of child development?",
+    "section": "Reviewing inputs and outputs",
+    "text": "Reviewing inputs and outputs\n\n\nModel-based work has focused on:\n\nmainly cognitive and limited non-cognitive skills\n\nLong-run focus on income only\nSkills matter for much more than the labor market…\n\nPhysical and mental health\nCrime\nPro-social attitudes and behaviors\nCreativity and invention\n\nWe severely underestimate the returns to intervention when we focus on the labor market returns"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#expanding-inputs-caucutt_child_2024",
+    "href": "slides/mullins_keynote_ozmac.html#expanding-inputs-caucutt_child_2024",
+    "title": "What’s next for the economics of child development?",
+    "section": "Expanding Inputs (Caucutt et al. 2024)",
+    "text": "Expanding Inputs (Caucutt et al. 2024)\n\n\nWe extend the basic framework to allow for (1) time; (2) money; and (3) childcare \\[  \\]\nKey difference with Cunha, Heckman, and Schennach (2010): investments with measurable prices, known relationship to endowments\nUse input demand to estimate elasticities of substitution\nFind a key role for these elasticities in explaining the effect of price changes"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#the-many-dimensions-of-intelligence",
+    "href": "slides/mullins_keynote_ozmac.html#the-many-dimensions-of-intelligence",
+    "title": "What’s next for the economics of child development?",
+    "section": "The many dimensions of intelligence",
+    "text": "The many dimensions of intelligence\n Source: Grantham-McGregor et al. (2007)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#the-many-dimensions-of-intelligence-1",
+    "href": "slides/mullins_keynote_ozmac.html#the-many-dimensions-of-intelligence-1",
+    "title": "What’s next for the economics of child development?",
+    "section": "The many dimensions of intelligence",
+    "text": "The many dimensions of intelligence\nResearchers have identified many unique dimensions of intelligence through measurement and imaging:\n\nCrystallized vs fluid\nWorking memory and processing speed\nExecutive functioning: inhibition, task-switching, updating\nSocio-emotional: systems for processing social information and emotional signals\nDomainn-specific: language, spatial processing, numerical computation\n\n\nThe co-evolution of many skills can:\n\nHelp explain fadeout + long-run impacts in ECE programs\nComplicate the comparison of studies with different measures of cognitive skills\nComplicate extrapolation of short-run skill impacts to long-run effects\n\ne.g. Kline and Walters (2016)\nfor teacher VA (Gilraine and Pope (2021), Lavy and Megalokonomou (2024))"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#the-5-dimensions-of-personality",
+    "href": "slides/mullins_keynote_ozmac.html#the-5-dimensions-of-personality",
+    "title": "What’s next for the economics of child development?",
+    "section": "The 5 dimensions of personality",
+    "text": "The 5 dimensions of personality\n\n\n\nConscientiousness\nEmotional Stability\nOpenness\nAgreeableness\nExtraversion\n\n\n\n\nTodd and Zhang (2020) incorporate into a dynamic model of occupation choice and education\nFlinn, Todd, and Zhang (2024) incorporate into a job-search model with bargaining\nBoth find that personality collectively explains more variation than cognitive skill"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#personality-presents-new-opportunities-and-new-challenges",
+    "href": "slides/mullins_keynote_ozmac.html#personality-presents-new-opportunities-and-new-challenges",
+    "title": "What’s next for the economics of child development?",
+    "section": "Personality presents new opportunities and new challenges",
+    "text": "Personality presents new opportunities and new challenges\n\n\nThe returns to personality are unlikely to be fundamentally technological\nShaped by social norms and organization of production\n\nextreme example: language\n\nImportant to understand the mechanisms behind and identify policy invariant relationships\n\ne.g. multiple equilibria in the organization of production\nthe returns to personality differ across countries, controlling for industry (e.g. Germany vs Australia)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#toward-a-better-understanding-of-returns",
+    "href": "slides/mullins_keynote_ozmac.html#toward-a-better-understanding-of-returns",
+    "title": "What’s next for the economics of child development?",
+    "section": "Toward a better understanding of returns",
+    "text": "Toward a better understanding of returns\n\n\nQuantitative policy studies focus on labor market earnings\n\nstraightforward in competitive markets\nless so, otherwise!\nnot policy invariant\n\nEmpirical work emphasises health, crime, happiness\nNone are truly invariant!\nIndustrial composition\nEndogenous technological choices\nOrganization of production\nAssignment to tasks"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#conclusions",
+    "href": "slides/mullins_keynote_ozmac.html#conclusions",
+    "title": "What’s next for the economics of child development?",
+    "section": "Conclusions",
+    "text": "Conclusions\nTBA"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#references",
+    "href": "slides/mullins_keynote_ozmac.html#references",
+    "title": "What’s next for the economics of child development?",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\n\n\nAbbott, Brant. 2022. “Incomplete Markets and Parental Investments in Children.” Review of Economic Dynamics 44 (April): 104–24. https://doi.org/10.1016/j.red.2021.02.012.\n\n\nAndrew, Alison, Orazio Attanasio, Britta Augsburg, Monimalika Day, Sally Grantham‐McGregor, Costas Meghir, Fardina Mehrin, Smriti Pahwa, and Marta Rubio‐Codina. 2020. “Effects of a Scalable Home‐visiting Intervention on Child Development in Slums of Urban India: Evidence from a Randomised Controlled Trial.” Journal of Child Psychology and Psychiatry 61 (6): 644–52. https://doi.org/10.1111/jcpp.13171.\n\n\nAttanasio, Orazio P., Camila Fernández, Emla O. A. Fitzsimons, Sally M. Grantham-McGregor, Costas Meghir, and Marta Rubio-Codina. 2014. “Using the Infrastructure of a Conditional Cash Transfer Program to Deliver a Scalable Integrated Early Child Development Program in Colombia: Cluster Randomized Controlled Trial.” BMJ 349 (September): g5785. https://doi.org/10.1136/bmj.g5785.\n\n\nBailey, Martha J, Hilary Hoynes, Maya Rossin-Slater, and Reed Walker. 2024. “Is the Social Safety Net a Long-Term Investment? Large-Scale Evidence From the Food Stamps Program.” Review of Economic Studies 91 (3): 1291–1330. https://doi.org/10.1093/restud/rdad063.\n\n\nBailey, Martha J., Shuqiao Sun, and Brenden Timpe. 2021. “Prep School for Poor Kids: The Long-Run Impacts of Head Start on Human Capital and Economic Self-Sufficiency.” American Economic Review 111 (12): 3963–4001. https://doi.org/10.1257/aer.20181801.\n\n\nBarr, Andrew, Jonathan Eggleston, and Alexander A Smith. 2022. “Investing in Infants: The Lasting Effects of Cash Transfers to New Families.” The Quarterly Journal of Economics 137 (4): 2539–83. https://doi.org/10.1093/qje/qjac023.\n\n\nBecker, Gary S., ed. 2010. A Treatise on the Family. Enl. ed. Cambridge, Mass: Harvard University Press.\n\n\nBecker, Gary S., and Nigel Tomes. 1979. “An Equilibrium Theory of the Distribution of Income and Intergenerational Mobility.” Journal of Political Economy 87 (6): 1153–89. https://www.jstor.org/stable/1833328.\n\n\nBrown, Meta, Christopher Flinn, and Joseph Mullins. 2024. “Family Law Effects on Divorce, Fertility, and Child Investment.” Journal of Labor Economics Forthcoming.\n\n\nCaucutt, Elizabeth, and Lance Lochner. 2020. “Early and Late Human Capital Investments, Borrowing Constraints, and the Family.” Journal of Political Economy 128 (3): 1065–1147. https://doi.org/10.1086/704759.\n\n\nCaucutt, Elizabeth, Lance Lochner, Joseph Mullins, and Youngmin Park. 2024. “Child Skill Production: Accounting for Parental and Market-Based Time and Goods Investments.” Working Paper.\n\n\nChetty, Raj, and Nathaniel Hendren. 2018. “The Impacts of Neighborhoods on Intergenerational Mobility I: Childhood Exposure Effects*.” The Quarterly Journal of Economics 133 (3): 1107–62. https://doi.org/10.1093/qje/qjy007.\n\n\nChyn, Eric, and Diego Daruich. 2022. “An Equilibrium Analysis of the Effects of Neighborhood-Based Interventions on Children.” National Bureau of Economic Research. https://www.nber.org/papers/w29927.\n\n\nCunha, Flavio, and James Heckman. 2007. “The Technology of Skill Formation.” American Economic Review 97 (2): 31–47. https://doi.org/10.1257/aer.97.2.31.\n\n\nCunha, Flavio, James J Heckman, and Susanne Schennach. 2010. “Estimating the Technology of Cognitive and Noncognitive Skill Formation.” Econometrica 78 (3): 883–931. https://doi.org/10.3982/ECTA6551.\n\n\nDaruich, Diego. 2023. “The Macroeconomic Consequences of Early Childhood Development Policies.” Working Paper, no. 2018-29. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265081.\n\n\nDel Boca, Daniela, Christopher Flinn, and Matthew Wiswall. 2014. “Household Choices and Child Development.” The Review of Economic Studies 81 (1): 137–85. https://doi.org/10.1093/restud/rdt026.\n\n\nDiamond, P. 1980. “Income Taxation with Fixed Hours of Work.” Journal of Public Economics 13 (1): 101–10. https://doi.org/10.1016/0047-2727(80)90024-9.\n\n\nFlinn, Christopher J., Petra Todd, and Weilong Zhang. 2024. “Labor Market Returns to Personality: A Job Search Approach to Understanding Gender Gaps.” Journal of Political Economy, November, 734092. https://doi.org/10.1086/734092.\n\n\nFogli, Alessandra, and Veronica Guerrieri. 2019. “The End of the American Dream? Inequality and Segregation in US Cities.” w26143. Cambridge, MA: National Bureau of Economic Research. https://doi.org/10.3386/w26143.\n\n\nGarcía, Jorge Luis, James J. Heckman, Duncan Ermini Leaf, and María José Prados. 2020. “Quantifying the Life-Cycle Benefits of an Influential Early-Childhood Program.” Journal of Political Economy 128 (7): 2502–41. https://doi.org/10.1086/705718.\n\n\nGarcia-Vazquez, Martin. 2024. “The Equilibrium Effects of State-Mandated Minimum Staff-to-Child Ratios.” Working Paper.\n\n\nGertler, Paul, James Heckman, Rodrigo Pinto, Arianna Zanolini, Christel Vermeersch, Susan Walker, Susan M. Chang, and Sally Grantham-McGregor. 2014. “Labor Market Returns to an Early Childhood Stimulation Intervention in Jamaica.” Science 344 (6187): 998–1001. https://doi.org/10.1126/science.1251178.\n\n\nGilraine, Michael, and Nolan Pope. 2021. “Making Teaching Last: Long-Run Value-Added.” w29555. Cambridge, MA: National Bureau of Economic Research. https://doi.org/10.3386/w29555.\n\n\nGoodman-Bacon, Andrew. 2021. “The Long-Run Effects of Childhood Insurance Coverage: Medicaid Implementation, Adult Health, and Labor Market Outcomes.” American Economic Review 111 (8): 2550–93. https://doi.org/10.1257/aer.20171671.\n\n\nGrantham-McGregor, Sally, Yin Bun Cheung, Santiago Cueto, Paul Glewwe, Linda Richter, and Barbara Strupp. 2007. “Developmental Potential in the First 5 Years for Children in Developing Countries.” The Lancet 369 (9555): 60–70. https://doi.org/10.1016/S0140-6736(07)60032-4.\n\n\nHeckman, James J., Seong Hyeok Moon, Rodrigo Pinto, Peter A. Savelyev, and Adam Yavitz. 2010. “The Rate of Return to the HighScope Perry Preschool Program.” Journal of Public Economics 94 (1-2): 114–28. https://doi.org/10.1016/j.jpubeco.2009.11.001.\n\n\nHuggett, Mark, Gustavo Ventura, and Amir Yaron. 2011. “Sources of Lifetime Inequality.” American Economic Review 101 (7): 2923–54. https://doi.org/10.1257/aer.101.7.2923.\n\n\nKeane, Michael P., and Kenneth I. Wolpin. 1997. “The Career Decisions of Young Men.” Journal of Political Economy 105 (3): 473–522. https://doi.org/10.1086/262080.\n\n\nKline, Patrick, and Christopher R. Walters. 2016. “Evaluating Public Programs with Close Substitutes: The Case of HeadStart*.” The Quarterly Journal of Economics 131 (4): 1795–1848. https://doi.org/10.1093/qje/qjw027.\n\n\nLavy, Victor, and Rigissa Megalokonomou. 2024. “Alternative Measures of Teachers’ Value Added and Impact on Short and Long-Term Outcomes: Evidence From Random Assignment.” w32671. Cambridge, MA: National Bureau of Economic Research. https://doi.org/10.3386/w32671.\n\n\nMoschini, Emily G. 2023. “Childcare Subsidies and Child Skill Accumulation in One-and Two-Parent Families.” American Economic Journal: Macroeconomics 15 (1): 475–516. https://www.aeaweb.org/articles?id=10.1257/mac.20200282.\n\n\nMullins, Joseph. 2022. “Designing Cash Transfers in the Presence of Children’s Human Capital Formation.” Working Paper.\n\n\n———. 2024. “A Structural Meta-Analysis of Welfare Reform Experiments and Their Impact on Children.” Journal of Political Economy Forthcoming.\n\n\nTodd, Petra E., and Weilong Zhang. 2020. “A Dynamic Model of Personality, Schooling, and Occupational Choice.” Quantitative Economics 11 (1): 231–75. https://doi.org/10.3982/QE890.\n\n\nZheng, Angela, and James Graham. 2022. “Public Education Inequality and Intergenerational Mobility.” American Economic Journal: Macroeconomics 14 (3): 250–82. https://doi.org/10.1257/mac.20180466."
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#slide-1-on-divorce-law",
+    "href": "slides/mullins_keynote_ozmac.html#slide-1-on-divorce-law",
+    "title": "What’s next for the economics of child development?",
+    "section": "Slide 1 on Divorce Law",
+    "text": "Slide 1 on Divorce Law"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#slide-2-on-divorce-law",
+    "href": "slides/mullins_keynote_ozmac.html#slide-2-on-divorce-law",
+    "title": "What’s next for the economics of child development?",
+    "section": "Slide 2 on Divorce Law",
+    "text": "Slide 2 on Divorce Law"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#figures-from-mullins_structural_2024",
+    "href": "slides/mullins_keynote_ozmac.html#figures-from-mullins_structural_2024",
+    "title": "What’s next for the economics of child development?",
+    "section": "Figures from Mullins (2024)",
+    "text": "Figures from Mullins (2024)"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#skills-and-divorce",
+    "href": "slides/mullins_keynote_ozmac.html#skills-and-divorce",
+    "title": "What’s next for the economics of child development?",
+    "section": "Skills and Divorce",
+    "text": "Skills and Divorce"
+  },
+  {
+    "objectID": "slides/mullins_keynote_ozmac.html#credibility-1",
+    "href": "slides/mullins_keynote_ozmac.html#credibility-1",
+    "title": "What’s next for the economics of child development?",
+    "section": "Credibility",
+    "text": "Credibility\nThe bad: :::{.incremental} - How close is good enough? Is 5% vs 6% big or small? It depends on the calculation. - Delta method: \\(\\text{sd}(g(\\beta)) = |g\\prime(\\beta)|\\text{sd}(\\beta)\\) - How much uncertainty does this uncertain number add to your calculation? - Often, little to no discipline on mechanisms that really matter (Brown, Flinn, and Mullins 2024) - Subject to cherry-picking - Treats evidence as an afterthought, rather than a key piece of the exercise - Why not hold models accountable to as much evidence as possible in a more rigorous way? :::"
   }
 ]

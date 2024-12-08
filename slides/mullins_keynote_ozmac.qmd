@@ -1,0 +1,630 @@
+---
+title: "What's next for the economics of child development?"
+format: 
+  revealjs:
+    theme: solarized
+    transition: slide
+bibliography: library.bib
+---
+
+
+## Intro
+
+:::{.incremental}
+- You invited me for a keynote and it went to my head **immediately**
+- I want to do something extremely pretentious: set an agenda for this field
+- Try to convince you that:
+  1. We've made good progress; and 
+  2. That there is much more exciting work to do (**especially in Macro**)
+- Full disclosure: this is coming from someone who spends 90% of his time screaming at a computer
+:::
+
+## A Research Program that Stands on Two Facts
+
+:::{.incremental}
+1. Most life-cycle inequality can be explained by **pre-labor market factors** (e.g. @keane_career_1997, @huggett_sources_2011)
+2. These **skills** and **traits** are partly shaped by environment, hence malleable to policy
+:::
+
+. . .
+
+The evidence suggests several key windows of opportunity in which to make equitable *and* efficient investments in human capital
+
+## Outline:
+
+:::{.incremental}
+- Review the evidence
+- @becker_equilibrium_1979: an easily extendable prototype model
+- Applications of the framework
+- Where to next?
+:::
+
+# Evidence on the childhood origins of inequality
+
+## Summary {.smaller}
+
+Four categories
+
+:::{.incremental}
+1. Experimental evidence on primates and other mammals (too large, won't cover)
+    - Effect of deprivation/nurturing on grey matter, spinal dendritic density, neuroendocrine system, gene expression [@grantham-mcgregor_developmental_2007]
+2. Early childhood education (experimental)
+    - Perry [@heckman_rate_2010], ABC / CARES [@garcia_quantifying_2020]
+3. Home visiting programs (experimental)
+    - e.g. Colombia [@attanasio_using_2014], Jamaica, [@gertler_labor_2014], India [@andrew_effects_2020]
+4. Public investments (quasi-experimental)
+    - Medicaid [@goodman-bacon_long-run_2021], Head Start [@bailey_prep_2021], Food Stamps [@bailey_is_2024], Child Tax Credit [@barr_investing_2022], Moving to Opportunity [@chetty_impacts_2018]
+:::
+
+## Abecedarian and CARES Program {.smaller}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](figures/ABC_REACH.png){fig-align="center"}
+
+*Source: @garcia_quantifying_2020*
+
+:::
+
+::: {.column width="30%"}
+- high risk kids 0-5
+- full-day care
+- health and social services
+- family support
+:::
+::::
+
+## Head Start{.smaller}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](figures/HS_event_study.png){fig-align="center"}
+
+*Source: @bailey_prep_2021*
+:::
+::: {.column width="30%"}
+- staggered adoption by counties (1965 - 1980)
+- ages 3-5
+- $\approx$ families below FPL
+:::
+
+::::
+
+
+## Medicaid {.smaller}
+
+![](figures/Medicaid_event_study2.png){fig-align="center"}
+
+*Source: @goodman-bacon_long-run_2021*
+
+## Child Tax Credit
+
+![](figures/CTC.png){fig-align="center"}
+
+*Source: @barr_investing_2022*
+<!-- 
+## slide
+
+Poverty and environmental deprivation disrupt children’s early
+brain development during periods of neural plasticity and sensitivity to
+environmental interactions, leading to long-term negative consequences on
+children’s health and development. The effects of poverty on the
+developing brain are mediated by caregiving behavior and stressful experiences, 
+illustrating the powerful potential of responsive caregiving. -->
+
+
+# The Becker Framework
+
+## The Becker Framework {.smaller}
+
+:::{.incremental}
+- Human capital produced with investments 
+    - @becker_treatise_2010, @becker_equilibrium_1979
+    $$ \theta_{t+1} = f(\theta_{t},I_{t}) $$
+    - $t$ can index generations or periods of development
+- Consistent with large literature on human development [@cunha_technology_2007]
+- Quantitatively, $\theta$ and $I$ may be substitutes in early life [@cunha_estimating_2010]
+- These periods of developmental sensitivity are windows of opportunity for public investment
+- Bypass equity-efficiency tradeoffs that appear later in life [@cunha_technology_2007]
+:::
+
+## The Model {.smaller}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment .fade-right}
+
+- Generations indexed by $t$
+- Endowments, $y$, a function of skills, $\theta$
+- Investment, $I$
+- A one period bond, $A$
+- The technology: $\theta_{t+1} = f(\theta_{t},I_{t})$
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment .fade-left}
+
+Recursive formulation:
+  $$ V(A,\theta) = \max_{I,C,A}\left\{u(C) + \beta V(A',\theta') \right\} $$
+s.t. 
+$$ C + pI + A' \leq y(\theta) + A(1+r) $$
+$$ A' \geq 0 $$
+
+:::
+
+:::
+
+::::
+
+::: {.fragment .fade-up}
+
+Note:
+
+- $C$ and $I$ can be composite goods e.g. time and money [@del_boca_household_2014]
+- can extend to multiple skills, periods of investment, inputs
+
+:::
+
+## Application: Incomplete Markets
+
+:::{.incremental}
+- If $A'\geq0$ not a constraint, **returns on $I$ and $A$ are equal**
+    - $f_{2}(\theta, I) = (1+r)$ $\Rightarrow$ no role for endowments
+- Market incompleteness is therefore **key** for understanding data and providing a role for policy
+- Uninsured income risk also distorts timing of investments
+- Quantitatively, binding constraints in any period matter for all periods [@caucutt_early_2020]
+- Age-dependent transfers that resolve these inefficiencies $\approx$ 5\% cev [@abbott_incomplete_2022]
+:::
+
+## Application: Designing Cash Transfers [@mullins_designing_2022] {.smaller}
+
+Consider a non-linear tax problem a la @diamond_income_1980:
+
+- A planner choosing income $y(e)$ for all earnings $e$
+- Households of type $e$ choosing $\{0,e\}$
+
+. . .
+
+A marginal increase in $y(e)$...
+
+:::: {.columns}
+:::{.column width="50%"}
+:::{.fragment .fade-left}
+**Classic PF**
+$$\text{direct:}\ \mu(e)P(e)u_{c}({y}(e)) - {{\lambda}}$$
+$$\text{behavioral:}\ + {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\left(e - {y}(e) + {y}(0)\right)$$
+:::
+:::
+:::{.column width="50%"}
+:::{.fragment .fade-right}
+**New Channel**
+$$ +\ \lambda\times{\text{Marginal effect of income on skills}} $$
+$$ +\  {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\times{\text{Net effect of employment on skills}}$$
+:::
+:::
+::::
+<!-- $$
+\begin{array}{l}
+  {{\mu(e)P(e)u_{c}({y}(e))}} - {{\lambda}}\ {\leftarrow\text{direct effect}}\\ \\
+  \ {+\ {\lambda}\times{\text{Marginal effect of income on skills}}}\ {\leftarrow\text{direct effect on skills}}  \\ \\
+  \ {+\ {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\left(e - {y}(e) + {y}(0)\right)}\  {\leftarrow\text{behavioral effect}} \\ \\
+  \ {+\ {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\times{\text{Net effect of employment on skills}}}\ {\leftarrow\text{behavioral effect on skills}}\\
+\end{array}
+$$ -->
+
+## Application: Designing Cash Transfers [@mullins_designing_2022] {.smaller}
+
+:::{.incremental}
+- To quantify the mechanism, estimate a dynamic model of work, program participation and investment in children
+- Factor shares of **time** and **money** inputs play crucial  and intuitive role in planner's problem
+- $\delta_{x}\ \uparrow$ program more generous
+- $\delta_{\tau}/\delta_{x}\ \uparrow$ fewer work subsidies
+- Estimate the model on single mothers with **rich unobserved heterogeneity** in labor market productivity, work costs and program participation costs.
+- Use welfare reform and EITC expansions to form instruments for $\delta_{x}$ and $\delta_{\tau}$
+- An optimal program is 20-25\% more generous than US baseline in 2000
+:::
+
+## Application: Designing Cash Transfers [@mullins_designing_2022] {.smaller}
+
+
+```{R}
+#| fig-align: center
+#| fig-asp: .7
+library(tidyverse)
+P <- read.csv("~/Dropbox/Research Projects/DesigningCashTransers-R1/Code/Estimation/EstsK10G5/OptPolicy.csv") 
+U <- read.csv("~/Dropbox/Research Projects/DesigningCashTransers-R1/Code/Estimation/EstsK10G5/US.csv") %>%
+  mutate(transfer = earnings+transfer,ymin=earnings+ymin,ymax=earnings+ymax)
+g <- P[1:50,] %>%
+  ggplot(aes(x=earnings,y=transfer,ymin=ymin,ymax=ymax,linetype=case)) + 
+  geom_line(size=1.5) + geom_ribbon(alpha=0.2) + geom_line(data=U,aes(x=earnings,y=transfer),size=1.2) + 
+  theme_minimal() + xlab("Earnings ($/month)") + ylab("Net Income ($/month)") +
+  theme(legend.title = element_blank()) + 
+  theme(
+    legend.position = "bottom",
+    axis.title.y = element_text(size= 20, margin = margin(t = 0, r = 10, b = 0, l = 0)),
+    axis.title.x = element_text(size = 20, margin = margin(t = 10, r = 0, b = 0, l = 0)),
+    legend.text = element_text(size=16)) + 
+    guides(linetype = guide_legend(nrow = 2, byrow = TRUE)) + 
+    theme(
+        plot.background = element_rect(fill = "#fdf6e3",color = NA),
+        panel.background = element_rect(fill = "#fdf6e3", color = NA))
+
+g
+
+```
+
+## Application: Direct Public Investment
+
+![](figures/ABC_REACH.png){fig-align="center"}
+
+*Source: @garcia_quantifying_2020*
+
+## Application: Direct Public Investment {.smaller}
+
+:::{.incremental}
+- @daruich_macroeconomic_2023 models this intervention as a **direct monetary investment** equal to the cost of the program
+    - using @cunha_estimating_2010 estimates
+- this seems to work remarkably well (gets close to the treatment impact on earnings)
+- even seems to match the impact on "scaled up" programs (Head Start)
+- large welfare gains: 12\% cev in long-run
+- a key source: dynamic complementarity **across generations**
+- evidence is more scant on some of the major components of the mechanism
+:::
+
+## Application: Neighborhoods {.smaller}
+
+::::{.columns}
+:::{.column width="60%"}
+![](figures/ChettyHendren_causal.png){fig-align="center"}
+
+*Source: @chetty_impacts_2018*
+:::
+:::{.column width="40%"}
+- @fogli_end_2019 and @chyn_equilibrium_2022 model neighborhoods inputs as mean income
+- @zheng_public_2022 study the effect of locally financed local schooling inputs 
+:::
+::::
+
+## Other Applications {.smaller}
+
+- Childcare
+    - @moschini_childcare_2023 studies the macroeconomic impact of childcare subsidies
+    - @garcia-vazquez_equilibrium_2024 studies the distributional impacts of regulations
+
+. . .
+
+- Marital Law
+    - @brown_family_2024 study the effects of family law on fertility, divorce, and cognitive skill outcomes
+    - unilateral vs mutual consent, child support, child custody
+    - complicated dynamic interplay between policies
+
+## Skills and Divorce
+
+:::: {.columns}
+::: {.column width="50%"}
+```{R}
+#| fig-align: center
+#| fig-asp: .7
+
+K <- read_csv("~/BFM/data/KidPanelv2.csv")
+g <- K %>%
+  select(AGE,AP_raw,dgroup) %>%
+  drop_na() %>%
+  mutate(dgroup = factor(dgroup,labels=c("Never Divorced","Divorced","Will Divorce"),levels=c(1,2,3))) %>%
+  mutate(age_group = case_when(AGE<=5 ~ 1,AGE>=14 ~ 4,AGE>=10 ~ 3,AGE>=6 ~ 2)) %>%
+  mutate(age_group = factor(age_group,labels=c("0-5","6-9","10-13","14+"),levels=c(1,2,3,4))) %>%
+  group_by(dgroup,age_group) %>%
+  summarize(m = mean(AP_raw),se = sd(AP_raw)/sqrt(n())) %>%
+  ggplot(aes(x=age_group,y=m,ymin=m-1.96*se,ymax=m+1.96*se,color=dgroup,shape=dgroup)) + geom_point(position = position_dodge(0.5),size=4) + geom_errorbar(position=position_dodge(0.5),width=0.3) + theme_minimal() + xlab("Age Group") + ylab("Average Raw AP Score") + theme(legend.position = "bottom",legend.title = element_blank())
+
+g + 
+    ggtitle("Average AP score by Marital Status (raw)") +
+    theme(plot.background = element_rect(fill = "#fdf6e3",color = NA),
+        panel.background = element_rect(fill = "#fdf6e3", color = NA),
+        axis.title = element_text(size=18),
+        legend.text = element_text(size=18),
+        strip.text = element_text(size=18),
+        title = element_text(size=18),
+        axis.text = element_text(size=18))
+```
+:::
+::: {.column width="50%"}
+:::{.fragment .fade-right}
+```{R}
+#| fig-align: center
+#| fig-asp: .7
+
+m1 <- K %>%
+  select(AGE,tau_m,dgroup) %>%
+  drop_na() %>%
+  mutate(dgroup = factor(dgroup,labels=c("Never Divorced","Divorced","Will Divorce"),levels=c(1,2,3))) %>%
+  mutate(age_group = case_when(AGE<=5 ~ 1,AGE>=14 ~ 4,AGE>=10 ~ 3,AGE>=6 ~ 2)) %>%
+  mutate(age_group = factor(age_group,labels=c("0-5","6-9","10-13","14+"),levels=c(1,2,3,4))) %>%
+  group_by(dgroup,age_group) %>%
+  summarize(m = mean(tau_m),se = sd(tau_m)/sqrt(n())) %>%
+  mutate(var="Mother's Time")
+
+m2 <- K %>%
+  select(AGE,tau_f,dgroup) %>%
+  drop_na() %>%
+  mutate(dgroup = factor(dgroup,labels=c("Never Divorced","Divorced","Will Divorce"),levels=c(1,2,3))) %>%
+  mutate(age_group = case_when(AGE<=5 ~ 1,AGE>=14 ~ 4,AGE>=10 ~ 3,AGE>=6 ~ 2)) %>%
+  mutate(age_group = factor(age_group,labels=c("0-5","6-9","10-13","14+"),levels=c(1,2,3,4))) %>%
+  group_by(dgroup,age_group) %>%
+  summarize(m = mean(tau_f),se = sd(tau_f)/sqrt(n())) %>%
+  mutate(var="Father's Time")
+
+  
+g <- rbind(m1,m2) %>%
+  ggplot(aes(x=age_group,y=m,ymin=m-1.96*se,ymax=m+1.96*se,color=dgroup,shape=dgroup)) + geom_point(position = position_dodge(0.5),size=4) + geom_errorbar(position=position_dodge(0.5),width=0.3) + facet_grid(. ~ var) + theme_minimal() + xlab("Age") + ylab("Hours / week") + theme(legend.position = "bottom",legend.title = element_blank())
+
+g + 
+    ggtitle("Average Time Investment by Marital Status") + 
+    theme(plot.background = element_rect(fill = "#fdf6e3",color = NA),
+        panel.background = element_rect(fill = "#fdf6e3", color = NA),
+        axis.title = element_text(size=18),
+        legend.text = element_text(size=18),
+        strip.text = element_text(size=18),
+        title = element_text(size=18),
+        axis.text = element_text(size=18))
+
+```
+:::
+:::
+::::
+
+# What's Next?
+
+## Looking ahead
+
+1. Credibility
+2. Widening scope
+    - Inputs and Outputs
+    - Mechanism behind returns
+
+## Credibility: An example {.smaller}
+
+Suppose that a key piece of the model is:
+
+$$ \theta_{t+1} = z [\alpha I^\rho + (1-\alpha)\theta_{t}^\rho]^{1/\rho} $$
+
+with $I = x^{\delta}\tau^{1-\delta}$.
+
+. . .
+
+A common strategy in Macro:
+
+:::{.incremental}
+1. Calibrate model to *cross-sectional* moments
+    - e.g. Match average test scores by age of child and by parental income, average expenditures on children (CEX), average time inputs (ATUS)
+    - identificiation via CRS assumption
+    - assuming away confounding sources of heterogeneity (e.g. correlation between wages/preferences and $z$)
+
+2. Validate the model by replicating a known research design inside the model
+    - e.g. "Person, Guy \& Fellah (2014) find that a 10\% increase in income for population $X$ leads to a 5\% increase in test scores. We simulate a 10\% income increase in income and find that it results in a 6\% increase in test scores, which validates a key quantitative mechanism in our model."
+:::
+
+## Credibility {.smaller}
+
+:::{.incremental}
+- I wrote this slide because I wanted to complain about this practice, but I came around as I wrote it down...
+- The good:
+    - We are seeing more and more of these types of validation exercises
+    - It adds credibility while keeping the model accountable to first order features of the data
+:::
+
+## Credibility {.smaller}
+
+The bad:
+:::{.incremental}
+- How close is good enough? Is 5\% vs 6\% big or small? It depends on the calculation.
+    - Delta method: $\text{sd}(g(\beta)) = |g\prime(\beta)|\text{sd}(\beta)$
+- How much uncertainty does this uncertain number add to your calculation?
+- Often, little to no discipline on mechanisms that really matter [@brown_family_2024]
+- Subject to cherry-picking
+- Treats evidence as an afterthought, rather than a key piece of the exercise
+- Why not hold models accountable to as much evidence as possible in a more rigorous way?
+:::
+
+## Example: @mullins_designing_2022 {.smaller}
+
+Model produces a linear outcome equation:
+
+$$ \log(\theta_{i,t+1}) = \mu_{k(i)} + \delta_{x}\log\left(\text{net income}_{i,t}\right) + \delta_{\tau}\log\left(\text{non-market time}_{i,t}\right) + \varepsilon_{i,t} $$
+
+. . .
+
+Two strategies:
+
+- Uses policy variation across states and over time to form instruments
+- Use panel data to invert out type $k(i)$ and control directly for sources of endogeneity
+- Estimate both with GMM and compare
+
+## Example: @mullins_structural_2024
+
+- Build on the dynamic model of @mullins_designing_2022
+- Use it to aggregate evidence from 3 welfare reform experiments across 6 sites 
+- Experimental welfare programs differed in their use of (1) benefit formulae; (2) time limits; (3) work requirements; (4) childcare subsidies
+- Use model to make sense of differences in treatment effects on child outcomes, work, and welfare participation
+- Call this a *structural meta-analysis*.
+
+## Figures from @mullins_structural_2024
+
+## Well-articulated variation {.smaller}
+
+
+:::{.incremental}
+- Say that a source of variation is *well-articulated* inside the model if it can be replicated in an *a priori* known way
+- Best example: known changes to prices or endowments in the model
+    - Benefit formulae, childcare subsidies, and time limits are all well-articulated
+    - Work requirements are not (must be parameterized and estimated)
+- Any model can be held accountable to empirical evidence that is well-articulated
+- A structural meta-analysis begins by identifying all sources of evidence that are well-articulated inside the model
+- Models are well-suited to the task of rigorously aggregating evidence!
+:::
+
+## Early Childhood Programs
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.fragment .fade-left}
+![](figures/ece_impacts.png)
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-right}
+- The most promising interventions are hard to articulate inside a standard model
+- What is quality? How do parenting interventions work?
+- Face well-known scaling issues
+- Begging for new models and new attempts to understand
+:::
+:::
+::::
+
+## Fadeout
+
+![](figures/fadeout.png)
+
+
+
+## Reviewing inputs and outputs {.smaller}
+
+| Paper | Inputs | Outputs |
+| ----- | ------ | ------- |
+| @caucutt_early_2020 | Money | Cog. |
+| @abbott_incomplete_2022 | Money \& Time | Cog. |
+| @del_boca_household_2014 | Money \& Time | Cog. | 
+| @daruich_macroeconomic_2023 | Money \& Time | Cog. and "Non-Cog" |
+| @mullins_designing_2022 | Money \& Time | Cog. and Behavioral |
+| @moschini_childcare_2023 | Time \& Childcare | Cog. | 
+| @caucutt_child_2024 | Money, Time \& Childcare | Cog. |
+| @zheng_public_2022 | Money \& School Quality | Income |
+
+## Reviewing inputs and outputs {.smaller}
+
+:::{.incremental}
+- Model-based work has focused on:
+  - mainly cognitive and limited non-cognitive skills
+- Long-run focus on income only
+- Skills matter for much more than the labor market...
+    - Physical and mental health
+    - Crime
+    - Pro-social attitudes and behaviors
+    - Creativity and invention
+- We severely underestimate the returns to intervention when we focus on the labor market returns
+:::
+
+## Expanding Inputs [@caucutt_child_2024]
+
+:::{.incremental}
+- We extend the basic framework to allow for (1) time; (2) money; and (3) childcare
+$$  $$
+- Key difference with @cunha_estimating_2010: investments with measurable prices, known relationship to endowments
+- Use input demand to estimate elasticities of substitution
+- Find a key role for these elasticities in explaining the effect of price changes
+:::
+
+## The many dimensions of intelligence {.smaller}
+
+![](figures/brain_dev.jpg){fig-align="center"}
+*Source: @grantham-mcgregor_developmental_2007*
+
+## The many dimensions of intelligence {.smaller}
+
+Researchers have identified many unique dimensions of intelligence through measurement and imaging:
+
+1. Crystallized vs fluid
+2. Working memory and processing speed
+3. Executive functioning: inhibition, task-switching, updating
+4. Socio-emotional: systems for processing social information and emotional signals
+5. Domainn-specific: language, spatial processing, numerical computation
+
+. . .
+
+The co-evolution of many skills can:
+
+- Help explain fadeout + long-run impacts in ECE programs
+- Complicate the comparison of studies with different measures of cognitive skills
+- Complicate extrapolation of short-run skill impacts to long-run effects
+    - e.g. @kline_evaluating_2016
+    - for teacher VA (@gilraine_making_2021, @lavy_alternative_2024)
+
+## The 5 dimensions of personality 
+
+::::{.columns}
+:::{.column width="40%"}
+1. Conscientiousness
+2. Emotional Stability
+3. Openness
+4. Agreeableness
+5. Extraversion
+:::
+:::{.column width="60%"}
+:::{.fragment .fade-left}
+- @todd_dynamic_2020 incorporate into a dynamic model of occupation choice and education 
+- @flinn_labor_2024 incorporate into a job-search model with bargaining
+- Both find that personality collectively explains more variation than cognitive skill
+:::
+:::
+::::
+
+# Personality and the Life-cycle {.smaller}
+
+![](figures/Big5Outcomes.png)
+*Source* @todd_dynamic_2020, estimated on HILDA data
+
+## Personality presents new opportunities and new challenges
+
+:::{.incremental}
+- The returns to personality are unlikely to be fundamentally technological
+- Shaped by social norms and organization of production
+    - extreme example: language
+- Important to understand the mechanisms behind and identify policy invariant relationships
+    - e.g. multiple equilibria in the organization of production
+    - the returns to personality differ across countries, controlling for industry (e.g. Germany vs Australia)
+:::
+
+## Toward a better understanding of returns
+
+:::{.incremental}
+- Quantitative policy studies focus on *labor market earnings*
+    - straightforward in competitive markets
+    - less so, otherwise!
+    - not policy invariant
+- Empirical work emphasises health, crime, happiness
+- None are truly invariant!
+- Industrial composition
+- Endogenous technological choices
+- Organization of production
+- Assignment to tasks
+:::
+
+## Conclusions
+
+TBA
+
+<!-- ## Conclusion
+
+- We can't predict the future
+- But we can't wait 30-50 years to examine the long-run impacts of our experiments
+- Have to meet in the middle in ways that account for uncertainties of technology and social organization
+
+## Conclusion
+
+- Lots of focus
+- How do we deal with all this complexity?
+- Marschak's Maxim -->
+
+## References

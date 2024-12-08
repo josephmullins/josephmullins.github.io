@@ -25,3 +25,7 @@ format:
 ## Publications
 
 [Labor Market Search and Schooling Investment](/papers/iere12108.pdf), with Christopher Flinn, *International Economic Review* 50 (May 2015)
+
+## Other
+
+[What's next for the economics of child development?](/slides/mullins_keynote_ozmac.qmd) (a keynote talk delivered at [OzMac 2024](https://sites.google.com/view/ozmac-workshop/home))
