@@ -128,8 +128,8 @@ illustrating the powerful potential of responsive caregiving. -->
     - $t$ can index generations or periods of development
 - Consistent with large literature on human development [@cunha_technology_2007]
 - Quantitatively, $\theta$ and $I$ may be substitutes in early life [@cunha_estimating_2010]
-- These periods of developmental sensitivity are windows of opportunity for public investment
-- Bypass equity-efficiency tradeoffs that appear later in life [@cunha_technology_2007]
+- These periods of developmental sensitivity are **windows of opportunity** for public investment
+- Bypass equity-efficiency tradeoffs that appear later life [@cunha_technology_2007]
 :::
 
 ## The Model {.smaller}
@@ -171,7 +171,7 @@ $$ A' \geq 0 $$
 Note:
 
 - $C$ and $I$ can be composite goods e.g. time and money [@del_boca_household_2014]
-- can extend to multiple skills, periods of investment, inputs
+- Can extend to multiple skills, periods of investment, inputs
 
 :::
 
@@ -199,14 +199,19 @@ A marginal increase in $y(e)$...
 
 :::: {.columns}
 :::{.column width="50%"}
-:::{.fragment .fade-left}
+:::{.fragment .fade-right}
 **Classic public finance**
 $$\text{direct:}\ \mu(e)P(e)u_{c}({y}(e)) - {{\lambda}}$$
+
+:::{.fragment .fade-up}
+
 $$\text{behavioral:}\ + {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\left(e - {y}(e) + {y}(0)\right)$$
+
+:::
 :::
 :::
 :::{.column width="50%"}
-:::{.fragment .fade-up}
+:::{.fragment .fade-left}
 **New Channel**
 $$ +\ \lambda\times{\text{Marginal effect of income on skills}} $$
 $$ +\  {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\times{\text{Net effect of employment on skills}}$$
@@ -229,7 +234,7 @@ $$ -->
 - Factor shares of **time** and **money** inputs play crucial  and intuitive role in planner's problem
 - $\delta_{x}\ \uparrow$ program more generous
 - $\delta_{\tau}/\delta_{x}\ \uparrow$ higher tax on earnings
-- Estimate the model on single mothers with **rich unobserved heterogeneity** in labor market productivity, work costs and program participation costs.
+- Estimate the model on single mothers with **rich unobserved heterogeneity** in labor market productivity, work costs, and program participation costs.
 - Use welfare reform and EITC expansions to form instruments for $\delta_{x}$ and $\delta_{\tau}$
 - An optimal program is 20-25\% more generous than US baseline in 2000
 :::
@@ -438,6 +443,7 @@ The bad:
     - $\text{sd}(\beta)$ increasingly common in Macro but $\text{sd}(g(\beta))$ still rare
 - How much uncertainty does this uncertain number add to your calculation?
 - Often, little to no discipline on mechanisms that really matter [@brown_family_2024]
+    - note that this function has much more empirical content to it than just the validation
 - Subject to cherry-picking
 - Treats evidence as an afterthought, rather than a key piece of the exercise
 - Why not hold models accountable to as much evidence as possible in a more rigorous way?
@@ -457,12 +463,16 @@ Two strategies:
 - Use panel data to invert out type $k(i)$ and control directly for sources of endogeneity
 - Estimate both with GMM and compare
 
-## Example: @mullins_structural_2024
+## Example: @mullins_structural_2024 {.smaller}
 
 :::{.incremental}
 - Build on the dynamic model of @mullins_designing_2022
 - Use it to aggregate evidence from 3 welfare reform experiments across 6 sites 
-- Experimental welfare programs differed in their use of (1) benefit formulae; (2) time limits; (3) work requirements; (4) childcare subsidies
+- Experimental welfare programs differed in their use of 
+    1. benefit formulae; 
+    2. time limits; 
+    3. work requirements; 
+    4. childcare subsidies
 - Experimental variation **identifies key parameters**
 - Use model to make sense of differences in treatment effects on child outcomes, work, and welfare participation
 - Call this a **structural meta-analysis**.
@@ -587,8 +597,8 @@ g
 
 - The most promising interventions are hard to articulate inside a standard model
 - What is quality? How do parenting interventions work?
-- Face well-known scaling issues
-- Begging for new models and new attempts to understand
+- Face well-known **scaling** and **fadeout** issues
+- Begging for new models and new attempts to understand [@daruich_macroeconomic_2023]
 
 
 ## Reviewing inputs and outputs {.smaller}
@@ -646,10 +656,12 @@ Researchers have identified many unique dimensions of intelligence through measu
 
 The co-evolution of many skills can:
 
+:::{.incremental}
 - Complicate the comparison of studies with different measures of cognitive skills
 - Complicate extrapolation of short-run skill impacts to long-run effects
     - e.g. @kline_evaluating_2016
     - for teacher VA (@gilraine_making_2021, @lavy_alternative_2024)
+:::
 
 ## The 5 dimensions of personality 
 
@@ -695,6 +707,7 @@ The co-evolution of many skills can:
     - industrial composition
     - task assignment
     - organization of production
+    - technology adoption
 - Empirical work emphasises health, crime, happiness
     - also not policy invariant!
     - mass incarceration

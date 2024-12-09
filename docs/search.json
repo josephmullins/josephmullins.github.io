@@ -144,14 +144,14 @@
     "href": "slides/mullins_keynote_ozmac.html#the-becker-framework-1",
     "title": "What’s next for the economics of child development?",
     "section": "The Becker Framework",
-    "text": "The Becker Framework\n\n\nHuman capital produced with investments\n\nBecker (2010), Becker and Tomes (1979) \\[ \\theta_{t+1} = f(\\theta_{t},I_{t}) \\]\n\\(t\\) can index generations or periods of development\n\nConsistent with large literature on human development (Cunha and Heckman 2007)\nQuantitatively, \\(\\theta\\) and \\(I\\) may be substitutes in early life (Cunha, Heckman, and Schennach 2010)\nThese periods of developmental sensitivity are windows of opportunity for public investment\nBypass equity-efficiency tradeoffs that appear later in life (Cunha and Heckman 2007)"
+    "text": "The Becker Framework\n\n\nHuman capital produced with investments\n\nBecker (2010), Becker and Tomes (1979) \\[ \\theta_{t+1} = f(\\theta_{t},I_{t}) \\]\n\\(t\\) can index generations or periods of development\n\nConsistent with large literature on human development (Cunha and Heckman 2007)\nQuantitatively, \\(\\theta\\) and \\(I\\) may be substitutes in early life (Cunha, Heckman, and Schennach 2010)\nThese periods of developmental sensitivity are windows of opportunity for public investment\nBypass equity-efficiency tradeoffs that appear later life (Cunha and Heckman 2007)"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#the-model",
     "href": "slides/mullins_keynote_ozmac.html#the-model",
     "title": "What’s next for the economics of child development?",
     "section": "The Model",
-    "text": "The Model\n\n\n\n\nGenerations indexed by \\(t\\)\nEndowments, \\(y\\), a function of skills, \\(\\theta\\)\nInvestment, \\(I\\)\nA one period bond, \\(A\\)\nThe technology: \\(\\theta_{t+1} = f(\\theta_{t},I_{t})\\)\n\n\n\n\nRecursive formulation: \\[ V(A,\\theta) = \\max_{I,C,A}\\left\\{u(C) + \\beta V(A',\\theta') \\right\\} \\] s.t. \\[ C + pI + A' \\leq y(\\theta) + A(1+r) \\] \\[ A' \\geq 0 \\]\n\n\n\n\nNote:\n\n\\(C\\) and \\(I\\) can be composite goods e.g. time and money (Del Boca, Flinn, and Wiswall 2014)\ncan extend to multiple skills, periods of investment, inputs"
+    "text": "The Model\n\n\n\n\nGenerations indexed by \\(t\\)\nEndowments, \\(y\\), a function of skills, \\(\\theta\\)\nInvestment, \\(I\\)\nA one period bond, \\(A\\)\nThe technology: \\(\\theta_{t+1} = f(\\theta_{t},I_{t})\\)\n\n\n\n\nRecursive formulation: \\[ V(A,\\theta) = \\max_{I,C,A}\\left\\{u(C) + \\beta V(A',\\theta') \\right\\} \\] s.t. \\[ C + pI + A' \\leq y(\\theta) + A(1+r) \\] \\[ A' \\geq 0 \\]\n\n\n\n\nNote:\n\n\\(C\\) and \\(I\\) can be composite goods e.g. time and money (Del Boca, Flinn, and Wiswall 2014)\nCan extend to multiple skills, periods of investment, inputs"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#application-incomplete-markets",
@@ -165,14 +165,14 @@
     "href": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022",
     "title": "What’s next for the economics of child development?",
     "section": "Application: Designing Cash Transfers (Mullins 2022)",
-    "text": "Application: Designing Cash Transfers (Mullins 2022)\nConsider a non-linear tax problem a la Diamond (1980):\n\nA planner choosing income \\(y(e)\\) for all earnings \\(e\\)\nHouseholds of type \\(e\\) choosing \\(\\{0,e\\}\\)\n\n\nA marginal increase in \\(y(e)\\)…\n\n\n\nClassic public finance \\[\\text{direct:}\\ \\mu(e)P(e)u_{c}({y}(e)) - {{\\lambda}}\\] \\[\\text{behavioral:}\\ + {\\lambda}\\frac{\\partial P(e)}{\\partial{y}(e)}\\left(e - {y}(e) + {y}(0)\\right)\\]\n\n\n\nNew Channel \\[ +\\ \\lambda\\times{\\text{Marginal effect of income on skills}} \\] \\[ +\\  {\\lambda}\\frac{\\partial P(e)}{\\partial{y}(e)}\\times{\\text{Net effect of employment on skills}}\\]"
+    "text": "Application: Designing Cash Transfers (Mullins 2022)\nConsider a non-linear tax problem a la Diamond (1980):\n\nA planner choosing income \\(y(e)\\) for all earnings \\(e\\)\nHouseholds of type \\(e\\) choosing \\(\\{0,e\\}\\)\n\n\nA marginal increase in \\(y(e)\\)…\n\n\n\nClassic public finance \\[\\text{direct:}\\ \\mu(e)P(e)u_{c}({y}(e)) - {{\\lambda}}\\]\n\n\\[\\text{behavioral:}\\ + {\\lambda}\\frac{\\partial P(e)}{\\partial{y}(e)}\\left(e - {y}(e) + {y}(0)\\right)\\]\n\n\n\n\nNew Channel \\[ +\\ \\lambda\\times{\\text{Marginal effect of income on skills}} \\] \\[ +\\  {\\lambda}\\frac{\\partial P(e)}{\\partial{y}(e)}\\times{\\text{Net effect of employment on skills}}\\]"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022-1",
     "href": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022-1",
     "title": "What’s next for the economics of child development?",
     "section": "Application: Designing Cash Transfers (Mullins 2022)",
-    "text": "Application: Designing Cash Transfers (Mullins 2022)\n\n\nTo quantify the mechanism, estimate a dynamic model of work, program participation and investment in children\nFactor shares of time and money inputs play crucial and intuitive role in planner’s problem\n\\(\\delta_{x}\\ \\uparrow\\) program more generous\n\\(\\delta_{\\tau}/\\delta_{x}\\ \\uparrow\\) higher tax on earnings\nEstimate the model on single mothers with rich unobserved heterogeneity in labor market productivity, work costs and program participation costs.\nUse welfare reform and EITC expansions to form instruments for \\(\\delta_{x}\\) and \\(\\delta_{\\tau}\\)\nAn optimal program is 20-25% more generous than US baseline in 2000"
+    "text": "Application: Designing Cash Transfers (Mullins 2022)\n\n\nTo quantify the mechanism, estimate a dynamic model of work, program participation and investment in children\nFactor shares of time and money inputs play crucial and intuitive role in planner’s problem\n\\(\\delta_{x}\\ \\uparrow\\) program more generous\n\\(\\delta_{\\tau}/\\delta_{x}\\ \\uparrow\\) higher tax on earnings\nEstimate the model on single mothers with rich unobserved heterogeneity in labor market productivity, work costs, and program participation costs.\nUse welfare reform and EITC expansions to form instruments for \\(\\delta_{x}\\) and \\(\\delta_{\\tau}\\)\nAn optimal program is 20-25% more generous than US baseline in 2000"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#application-designing-cash-transfers-mullins_designing_2022-2",
@@ -242,7 +242,7 @@
     "href": "slides/mullins_keynote_ozmac.html#example-mullins_structural_2024",
     "title": "What’s next for the economics of child development?",
     "section": "Example: Mullins (2024)",
-    "text": "Example: Mullins (2024)\n\n\nBuild on the dynamic model of Mullins (2022)\nUse it to aggregate evidence from 3 welfare reform experiments across 6 sites\nExperimental welfare programs differed in their use of (1) benefit formulae; (2) time limits; (3) work requirements; (4) childcare subsidies\nExperimental variation identifies key parameters\nUse model to make sense of differences in treatment effects on child outcomes, work, and welfare participation\nCall this a structural meta-analysis."
+    "text": "Example: Mullins (2024)\n\n\nBuild on the dynamic model of Mullins (2022)\nUse it to aggregate evidence from 3 welfare reform experiments across 6 sites\nExperimental welfare programs differed in their use of\n\nbenefit formulae;\ntime limits;\nwork requirements;\nchildcare subsidies\n\nExperimental variation identifies key parameters\nUse model to make sense of differences in treatment effects on child outcomes, work, and welfare participation\nCall this a structural meta-analysis."
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#well-articulated-variation",
@@ -256,7 +256,7 @@
     "href": "slides/mullins_keynote_ozmac.html#early-childhood-programs",
     "title": "What’s next for the economics of child development?",
     "section": "Early Childhood Programs",
-    "text": "Early Childhood Programs\n\n\n\n Source: Duncan and Magnuson (2013)\n\n\n\n Source: List and Uchida (2024)\n\n\n\n\n\nThe most promising interventions are hard to articulate inside a standard model\nWhat is quality? How do parenting interventions work?\nFace well-known scaling issues\nBegging for new models and new attempts to understand"
+    "text": "Early Childhood Programs\n\n\n\n Source: Duncan and Magnuson (2013)\n\n\n\n Source: List and Uchida (2024)\n\n\n\n\n\nThe most promising interventions are hard to articulate inside a standard model\nWhat is quality? How do parenting interventions work?\nFace well-known scaling and fadeout issues\nBegging for new models and new attempts to understand (Daruich 2023)"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#fadeout",
@@ -298,7 +298,7 @@
     "href": "slides/mullins_keynote_ozmac.html#the-many-dimensions-of-intelligence-1",
     "title": "What’s next for the economics of child development?",
     "section": "The many dimensions of intelligence",
-    "text": "The many dimensions of intelligence\nResearchers have identified many unique dimensions of intelligence through measurement and imaging (Sternberg 2019):\n\nCrystallized vs fluid\nWorking memory and processing speed\nExecutive functioning: inhibition, task-switching, updating\nSocio-emotional: systems for processing social information and emotional signals\nDomain-specific: language, spatial processing, numerical computation\n\n\nThe co-evolution of many skills can:\n\nComplicate the comparison of studies with different measures of cognitive skills\nComplicate extrapolation of short-run skill impacts to long-run effects\n\ne.g. Kline and Walters (2016)\nfor teacher VA (Gilraine and Pope (2021), Lavy and Megalokonomou (2024))"
+    "text": "The many dimensions of intelligence\nResearchers have identified many unique dimensions of intelligence through measurement and imaging (Sternberg 2019):\n\nCrystallized vs fluid\nWorking memory and processing speed\nExecutive functioning: inhibition, task-switching, updating\nSocio-emotional: systems for processing social information and emotional signals\nDomain-specific: language, spatial processing, numerical computation\n\n\nThe co-evolution of many skills can:\n\n\nComplicate the comparison of studies with different measures of cognitive skills\nComplicate extrapolation of short-run skill impacts to long-run effects\n\ne.g. Kline and Walters (2016)\nfor teacher VA (Gilraine and Pope (2021), Lavy and Megalokonomou (2024))"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#the-5-dimensions-of-personality",
@@ -319,7 +319,7 @@
     "href": "slides/mullins_keynote_ozmac.html#toward-a-better-understanding-of-returns",
     "title": "What’s next for the economics of child development?",
     "section": "Toward a better understanding of returns",
-    "text": "Toward a better understanding of returns\n\n\nQuantitative policy studies focus on labor market earnings\n\nstraightforward only in competitive markets\nnot policy invariant\ntaxes\nindustrial composition\ntask assignment\norganization of production\n\nEmpirical work emphasises health, crime, happiness\n\nalso not policy invariant!\nmass incarceration\npublic health care"
+    "text": "Toward a better understanding of returns\n\n\nQuantitative policy studies focus on labor market earnings\n\nstraightforward only in competitive markets\nnot policy invariant\ntaxes\nindustrial composition\ntask assignment\norganization of production\ntechnology adoption\n\nEmpirical work emphasises health, crime, happiness\n\nalso not policy invariant!\nmass incarceration\npublic health care"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#conclusions",
@@ -368,7 +368,7 @@
     "href": "slides/mullins_keynote_ozmac.html#credibility-1",
     "title": "What’s next for the economics of child development?",
     "section": "Credibility",
-    "text": "Credibility\nThe bad:\n\n\nHow close is good enough? Is 5% vs 6% big or small? It depends on the calculation.\n\nDelta method: \\(\\text{sd}(g(\\beta)) = |g\\prime(\\beta)|\\text{sd}(\\beta)\\)\n\\(\\text{sd}(\\beta)\\) increasingly common in Macro but \\(\\text{sd}(g(\\beta))\\) still rare\n\nHow much uncertainty does this uncertain number add to your calculation?\nOften, little to no discipline on mechanisms that really matter (Brown, Flinn, and Mullins 2024)\nSubject to cherry-picking\nTreats evidence as an afterthought, rather than a key piece of the exercise\nWhy not hold models accountable to as much evidence as possible in a more rigorous way?"
+    "text": "Credibility\nThe bad:\n\n\nHow close is good enough? Is 5% vs 6% big or small? It depends on the calculation.\n\nDelta method: \\(\\text{sd}(g(\\beta)) = |g\\prime(\\beta)|\\text{sd}(\\beta)\\)\n\\(\\text{sd}(\\beta)\\) increasingly common in Macro but \\(\\text{sd}(g(\\beta))\\) still rare\n\nHow much uncertainty does this uncertain number add to your calculation?\nOften, little to no discipline on mechanisms that really matter (Brown, Flinn, and Mullins 2024)\n\nnote that this function has much more empirical content to it than just the validation\n\nSubject to cherry-picking\nTreats evidence as an afterthought, rather than a key piece of the exercise\nWhy not hold models accountable to as much evidence as possible in a more rigorous way?"
   },
   {
     "objectID": "slides/mullins_keynote_ozmac.html#model-predicts-out-of-sample",
