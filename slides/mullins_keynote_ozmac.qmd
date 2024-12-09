@@ -14,8 +14,8 @@ bibliography: library.bib
 - You invited me for a keynote and it went to my head **immediately**
 - I want to do something extremely pretentious: set an agenda for this field
 - Try to convince you that:
-  1. We've made good progress; and 
-  2. That there is much more exciting work to do (**especially in Macro**)
+  1. we've made good progress; and 
+  2. that there is much more exciting work to do (**especially in Macro**)
 - Full disclosure: this is coming from someone who spends 90% of his time screaming at a computer
 :::
 
@@ -23,12 +23,12 @@ bibliography: library.bib
 
 :::{.incremental}
 1. Most life-cycle inequality can be explained by **pre-labor market factors** (e.g. @keane_career_1997, @huggett_sources_2011)
-2. These **skills** and **traits** are partly shaped by environment, hence malleable to policy
+2. These **skills** and **traits** are partly shaped by environment, hence **malleable to policy**
 :::
 
-. . .
-
+:::{.fragment .fade-up}
 The evidence suggests several key windows of opportunity in which to make equitable *and* efficient investments in human capital
+:::
 
 ## Outline:
 
@@ -200,13 +200,13 @@ A marginal increase in $y(e)$...
 :::: {.columns}
 :::{.column width="50%"}
 :::{.fragment .fade-left}
-**Classic PF**
+**Classic public finance**
 $$\text{direct:}\ \mu(e)P(e)u_{c}({y}(e)) - {{\lambda}}$$
 $$\text{behavioral:}\ + {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\left(e - {y}(e) + {y}(0)\right)$$
 :::
 :::
 :::{.column width="50%"}
-:::{.fragment .fade-right}
+:::{.fragment .fade-up}
 **New Channel**
 $$ +\ \lambda\times{\text{Marginal effect of income on skills}} $$
 $$ +\  {\lambda}\frac{\partial P(e)}{\partial{y}(e)}\times{\text{Net effect of employment on skills}}$$
@@ -228,7 +228,7 @@ $$ -->
 - To quantify the mechanism, estimate a dynamic model of work, program participation and investment in children
 - Factor shares of **time** and **money** inputs play crucial  and intuitive role in planner's problem
 - $\delta_{x}\ \uparrow$ program more generous
-- $\delta_{\tau}/\delta_{x}\ \uparrow$ fewer work subsidies
+- $\delta_{\tau}/\delta_{x}\ \uparrow$ higher tax on earnings
 - Estimate the model on single mothers with **rich unobserved heterogeneity** in labor market productivity, work costs and program participation costs.
 - Use welfare reform and EITC expansions to form instruments for $\delta_{x}$ and $\delta_{\tau}$
 - An optimal program is 20-25\% more generous than US baseline in 2000
@@ -308,7 +308,7 @@ g
     - unilateral vs mutual consent, child support, child custody
     - complicated dynamic interplay between policies
 
-## Skills and Divorce
+## Skills and Divorce {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -382,6 +382,11 @@ g +
 :::
 :::
 ::::
+:::{.fragment .fade-up}
+- differences in skill outcomes driven partly by **selection**, partly by **inputs** (off-setting)
+- effect of policy change on divorce **does not** predict effect on skills
+    - differences in selection
+:::
 
 # What's Next?
 
@@ -407,28 +412,30 @@ A common strategy in Macro:
 :::{.incremental}
 1. Calibrate model to *cross-sectional* moments
     - e.g. Match average test scores by age of child and by parental income, average expenditures on children (CEX), average time inputs (ATUS)
-    - identificiation via CRS assumption
+    - identificiation via CRS assumption + functional form
     - assuming away confounding sources of heterogeneity (e.g. correlation between wages/preferences and $z$)
 
-2. Validate the model by replicating a known research design inside the model
-    - e.g. "Person, Guy \& Fellah (2014) find that a 10\% increase in income for population $X$ leads to a 5\% increase in test scores. We simulate a 10\% income increase in income and find that it results in a 6\% increase in test scores, which validates a key quantitative mechanism in our model."
+2. Validate the model by replicating a known research design inside the model...
 :::
 
 ## Credibility {.smaller}
 
 :::{.incremental}
+- example: *"Person, Guy \& Fellah (2014) find that a 10\% increase in income for population $X$ leads to a 5\% increase in test scores. We simulate a 10\% income increase in income and find that it results in a 6\% increase in test scores, which validates a key quantitative mechanism in our model."*
 - I wrote this slide because I wanted to complain about this practice, but I came around as I wrote it down...
 - The good:
-    - We are seeing more and more of these types of validation exercises
+    - This type of validation exercise has become the norm
     - It adds credibility while keeping the model accountable to first order features of the data
 :::
 
 ## Credibility {.smaller}
 
 The bad:
+
 :::{.incremental}
 - How close is good enough? Is 5\% vs 6\% big or small? It depends on the calculation.
     - Delta method: $\text{sd}(g(\beta)) = |g\prime(\beta)|\text{sd}(\beta)$
+    - $\text{sd}(\beta)$ increasingly common in Macro but $\text{sd}(g(\beta))$ still rare
 - How much uncertainty does this uncertain number add to your calculation?
 - Often, little to no discipline on mechanisms that really matter [@brown_family_2024]
 - Subject to cherry-picking
@@ -452,13 +459,97 @@ Two strategies:
 
 ## Example: @mullins_structural_2024
 
+:::{.incremental}
 - Build on the dynamic model of @mullins_designing_2022
 - Use it to aggregate evidence from 3 welfare reform experiments across 6 sites 
 - Experimental welfare programs differed in their use of (1) benefit formulae; (2) time limits; (3) work requirements; (4) childcare subsidies
+- Experimental variation **identifies key parameters**
 - Use model to make sense of differences in treatment effects on child outcomes, work, and welfare participation
-- Call this a *structural meta-analysis*.
+- Call this a **structural meta-analysis**.
+:::
 
-## Figures from @mullins_structural_2024
+## Model predicts out of sample
+
+```{R}
+colors = c("#221E1D","#63AA9C","#E9633B") # color scheme
+cback = "#fdf6e3"  ###"#f5f4ef"
+th_ = theme_minimal() + theme(rect = element_rect(fill = cback),panel.background = element_rect(fill = cback, color=cback),legend.position = "bottom",axis.title.y=element_text(vjust=1.2),legend.background = element_rect(fill=cback,color=cback),panel.border = element_blank())
+
+c_sub <- read.csv("/Users/joseph/Dropbox/Research Projects/WelfareMetaAnalysis/Data/Data_child_prepped.csv") %>%
+  select(source, id)
+
+data <- read.csv("/Users/joseph/Dropbox/Research Projects/WelfareMetaAnalysis/Data/Data_prepped.csv") %>%
+  filter(!is.na(FS), !is.na(AFDC), !is.na(EMP))
+
+sipp <- data %>%
+  filter(source == "SIPP") %>%
+  mutate(EARN = replace_na(EARN,0.))
+
+data <- data %>%
+  inner_join(c_sub) %>%
+  rbind(sipp) %>%
+  mutate(est_sample = ! ((source=="MFIP" & arm>0 & county>1 & app_status==1) | (source=="CTJF" & arm>0 & county==1 & app_status==1))) %>%
+  mutate(date = as.Date(paste(year, "-", 3 * Q, "-01", sep = ""))) %>%
+  mutate(arm = as.factor(arm),app_status = as.factor(app_status)) %>%
+  select(date,source,arm,app_status,est_sample,EMP,AFDC,EARN) %>%
+  pivot_longer(cols = c("EMP","AFDC","EARN")) %>%
+  group_by(date,source,arm,app_status,est_sample,name) %>%
+  summarize(sd = sd(value,na.rm = TRUE)/sqrt(sum(!is.na(value))), value = mean(value,na.rm = TRUE)) %>%
+  mutate(case = "Data") %>%
+  as.data.frame()
+
+
+# recode applicant status:
+data <- data %>%
+  mutate(applicant = case_when(source=="CTJF" & app_status==0 ~ "Recipient",source=="CTJF" & app_status==1 ~ "Applicant",
+                               source=="FTP" & app_status==0 ~ "Recipient",source=="FTP" & app_status==1 ~ "Applicant",
+                               source=="MFIP" & app_status==3 ~ "Recipient",source=="MFIP" & app_status==2 ~ "Re-applicant",source=="MFIP" & app_status==1 ~ "New Applicant",
+                               source=="SIPP" ~ "Rep. sample"))
+
+model <- read.csv("/Users/joseph/Dropbox/Research Projects/WelfareMetaAnalysis/julia/output/modelfit_exante_K5.csv") %>%
+  mutate(date = as.Date(paste(year, "-", 3 * (Q+1), "-01", sep = ""))) %>%
+  select(-LOGFULL) %>%
+  pivot_longer(cols=c("EMP","AFDC","EARN")) %>%
+  mutate(case = "Model",sd = NA,est_sample = est_sample=="true") %>%
+  select(-year,-Q)
+
+g <- data %>%
+  select(-c("app_status","applicant")) %>%
+  rbind(model) %>%
+  filter(!est_sample) %>%
+  ggplot(aes(x=date,y=value,ymin=value-1.96*sd,ymax=value+1.96*sd,linetype=case)) + 
+  geom_errorbar(width=0) +
+  geom_line(size=2) + 
+  facet_grid(name ~ source*arm,scales="free_y") + theme_minimal() + 
+  theme(legend.position = "bottom") + 
+  scale_color_manual(name="Arm",values = colors[2:3]) + 
+  scale_fill_manual(name="Arm",values = colors[2:3]) + 
+  scale_shape_discrete(name=NULL) + 
+  ylab("") + xlab("")  + 
+  scale_linetype_discrete(name=NULL) + 
+  theme(axis.text.y = element_text(size=6),
+    plot.background = element_rect(fill = "#fdf6e3",color = NA),
+    panel.background = element_rect(fill = "#fdf6e3", color = NA))
+g #+ th_
+```
+
+## Model can decompose treatment effects
+
+```{r}
+d <- read.csv("~/Dropbox/Research Projects/WelfareMetaAnalysis/julia/output/decomp_counterfactual.csv") %>%
+  mutate(date = as.Date(paste(year, "-", 3 * (Q+1), "-01", sep = "")))
+  
+g <- d %>%
+  ggplot(aes(x=date,y=value,ymin=q25,ymax=q75,color=case,fill=case)) + geom_line(linewidth=1.1) + facet_grid(variable ~ source,scales="free_y") + geom_ribbon(color=NA,alpha=0.1) + th_ + 
+  theme(
+    legend.title = element_blank(),
+    plot.background = element_rect(fill = "#fdf6e3",color = NA),
+    panel.background = element_rect(fill = "#fdf6e3", color = NA)) + 
+    ylab(NULL) + xlab(NULL)
+
+g
+
+```
 
 ## Well-articulated variation {.smaller}
 
@@ -473,30 +564,31 @@ Two strategies:
 - Models are well-suited to the task of rigorously aggregating evidence!
 :::
 
-## Early Childhood Programs
+## Early Childhood Programs {.smaller}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 ::: {.fragment .fade-left}
 ![](figures/ece_impacts.png)
+*Source:* @duncan_investing_2013
 :::
 :::
 
 ::: {.column width="50%"}
 ::: {.fragment .fade-right}
-- The most promising interventions are hard to articulate inside a standard model
-- What is quality? How do parenting interventions work?
-- Face well-known scaling issues
-- Begging for new models and new attempts to understand
+![](figures/fadeout.png)
+*Source:* @list_here_2024
 :::
 :::
 ::::
 
-## Fadeout
+. . .
 
-![](figures/fadeout.png)
-
+- The most promising interventions are hard to articulate inside a standard model
+- What is quality? How do parenting interventions work?
+- Face well-known scaling issues
+- Begging for new models and new attempts to understand
 
 
 ## Reviewing inputs and outputs {.smaller}
@@ -530,10 +622,9 @@ Two strategies:
 
 :::{.incremental}
 - We extend the basic framework to allow for (1) time; (2) money; and (3) childcare
-$$  $$
 - Key difference with @cunha_estimating_2010: investments with measurable prices, known relationship to endowments
 - Use input demand to estimate elasticities of substitution
-- Find a key role for these elasticities in explaining the effect of price changes
+- Find a key role for these elasticities in predicting the effect of price changes (e.g. childcare subsidies)
 :::
 
 ## The many dimensions of intelligence {.smaller}
@@ -543,19 +634,18 @@ $$  $$
 
 ## The many dimensions of intelligence {.smaller}
 
-Researchers have identified many unique dimensions of intelligence through measurement and imaging:
+Researchers have identified many unique dimensions of intelligence through measurement and imaging [@sternberg_cambridge_2019]:
 
 1. Crystallized vs fluid
 2. Working memory and processing speed
 3. Executive functioning: inhibition, task-switching, updating
 4. Socio-emotional: systems for processing social information and emotional signals
-5. Domainn-specific: language, spatial processing, numerical computation
+5. Domain-specific: language, spatial processing, numerical computation
 
 . . .
 
 The co-evolution of many skills can:
 
-- Help explain fadeout + long-run impacts in ECE programs
 - Complicate the comparison of studies with different measures of cognitive skills
 - Complicate extrapolation of short-run skill impacts to long-run effects
     - e.g. @kline_evaluating_2016
@@ -575,7 +665,7 @@ The co-evolution of many skills can:
 :::{.fragment .fade-left}
 - @todd_dynamic_2020 incorporate into a dynamic model of occupation choice and education 
 - @flinn_labor_2024 incorporate into a job-search model with bargaining
-- Both find that personality collectively explains more variation than cognitive skill
+- Both find that personality collectively explains *more variation in earnings than cognitive skill*
 :::
 :::
 ::::
@@ -593,27 +683,34 @@ The co-evolution of many skills can:
     - extreme example: language
 - Important to understand the mechanisms behind and identify policy invariant relationships
     - e.g. multiple equilibria in the organization of production
-    - the returns to personality differ across countries, controlling for industry (e.g. Germany vs Australia)
 :::
 
-## Toward a better understanding of returns
+## Toward a better understanding of returns {.smaller}
 
 :::{.incremental}
 - Quantitative policy studies focus on *labor market earnings*
-    - straightforward in competitive markets
-    - less so, otherwise!
-    - not policy invariant
+    - straightforward only in competitive markets
+    - not policy invariant 
+    - taxes
+    - industrial composition
+    - task assignment
+    - organization of production
 - Empirical work emphasises health, crime, happiness
-- None are truly invariant!
-- Industrial composition
-- Endogenous technological choices
-- Organization of production
-- Assignment to tasks
+    - also not policy invariant!
+    - mass incarceration
+    - public health care
 :::
 
 ## Conclusions
 
-TBA
+:::{.incremental}
+- Useful evidence for policy is rapidly accumulating
+- The @becker_equilibrium_1979 model has taken us pretty far
+- And can take us a lot further (has not caught up to the evidence)
+- We should be working to aggregate evidence in a rigorous way
+- Develop theories in order to **articulate** the evidence
+- And broaden scope for understanding the dimensions of and returns to human capital
+:::
 
 <!-- ## Conclusion
 
