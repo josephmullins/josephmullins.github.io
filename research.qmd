@@ -9,19 +9,19 @@ format:
 
 [Family Law Effects on Divorce, Fertility, and Child Investment](/papers/BFM_in_JOLE_Format-2.pdf), with Meta Brown and Christopher Flinn: accepted at the *Journal of Labor Economics* ([replication files](https://github.com/josephmullins/BFM))
 
-[A Structural Meta-analysis of Welfare Reform Experiments and Their Impacts on Children](/papers/WelfareMetaAnalysis_JPE_submission.pdf): accepted at the *Journal of Political Economy* ([appendix](/papers/WelfareMetaAnalysis_JPE_submission_OnlineAppendix.pdf), [replication files](https://github.com/josephmullins/welfare-meta-study)), [slides](slides/WelfareMetaAnalysis.pdf)
+[A Structural Meta-analysis of Welfare Reform Experiments and Their Impacts on Children](/papers/WelfareMetaAnalysis_JPE_submission.pdf): accepted at the *Journal of Political Economy* ([appendix](/papers/WelfareMetaAnalysis_JPE_submission_OnlineAppendix.pdf), [replication files](https://github.com/josephmullins/welfare-meta-study), [slides](slides/WelfareMetaAnalysis.pdf))
 
-[Child skill production: Accounting for parental and market-based time and goods investments](papers/JPE_manuscript_20200669.pdf), with Elizabeth Caucutt, Lance Lochner, and Youngmin Park: accepted at *Journal of Political Economy*, [slides](slides/CLMP.pdf)
+[Child skill production: Accounting for parental and market-based time and goods investments](papers/JPE_manuscript_20200669.pdf), with Elizabeth Caucutt, Lance Lochner, and Youngmin Park: accepted at *Journal of Political Economy* ([slides](slides/CLMP.pdf))
 
 
 ## Working Papers
 
 
-[Firms' Choices of Wage-Setting Protocols](/papers/FirmChoices-RES.pdf), with Christopher Flinn: R&R at *Review of Economic Studies*, [slides](slides/FlinnMullins.pdf)
+[Firms' Choices of Wage-Setting Protocols](/papers/FirmChoices-RES.pdf), with Christopher Flinn: R&R at *Review of Economic Studies* ([slides](slides/FlinnMullins.pdf))
 
-[Designing Cash Transfers in the Presence of Children's Human Capital Formation](/papers/DesigningCashTransfers_Children_Draft.pdf): 2nd round at *Journal of Political Economy*, [slides](slides/DesigningCashTransfers.pdf)
+[Designing Cash Transfers in the Presence of Children's Human Capital Formation](/papers/DesigningCashTransfers_Children_Draft.pdf): 2nd round at *Journal of Political Economy* ([slides](slides/DesigningCashTransfers.pdf))
 
-[Frictional Adjustment to Income Tax Incentives:  An Application to the Earned Income Tax Credit](/papers/MancinoMullins-EITC-Feb-2023.pdf), with Antonella Mancino: R&R at *Journal of Political Economy: Microeconomics*, [slides](slides/MancinoMullins_BSF_45m.pdf)
+[Frictional Adjustment to Income Tax Incentives:  An Application to the Earned Income Tax Credit](/papers/MancinoMullins-EITC-Feb-2023.pdf), with Antonella Mancino: R&R at *Journal of Political Economy: Microeconomics* ([slides](slides/MancinoMullins_BSF_45m.pdf))
 
 ## Publications
 
