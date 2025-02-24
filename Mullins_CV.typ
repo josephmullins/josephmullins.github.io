@@ -114,11 +114,14 @@ Classes:
 Quarterly Journal of Economics, Journal of Political Economy, American Economic Review, Econometrica, Review of Economic Studies, International Economic Review, Journal of Labor Economics, Review of Eco- nomic Dynamics, Journal of Public Economics, European Economic Review, Scandinavian Journal of Economics, Labour Economics, American Economic Journal: Policy, Canadian Journal of Economics, Portuguese Economic Journal, Journal of Monetary Economics, Economic Journal, Theoretical Economics
 
 == Presentations and Seminars
+=== 2025
+AEA Annual Meeting, MEA Annual Meeting, Cornell, Leuven Summer Event
+
 === 2024
 OzMac: Australian Macroeconomic Workshop (keynote address),MEA Annual Meeting, SED Annual Meeting, University of Nebraska
 
 === 2023
-AEA Annual Meeting, Junior Micro/Macro Labor Workshop at Columbia Business School, St Louis Fed, SED Annual Meeting, Duke, U Nebraska, CEHD (Chicago)
+AEA Annual Meeting, Junior Micro/Macro Labor Workshop at Columbia Business School, St Louis Fed, SED Annual Meeting, Duke, U Nebraska, CEHD (Chicago), Institute for Fiscal Studies
 === 2022
 Stanford, SUNY Stony Brook, Rice U, U Montreal, U Essex, Paris School of Economics, Toulouse School of Economics, Barcelona Summer Forum - Structural Microeconometrics, Barcelona Summer Forum - Macro of Labour Markets, Melbourne University
 === 2021
