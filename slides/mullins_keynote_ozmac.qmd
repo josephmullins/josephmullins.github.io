@@ -10,13 +10,13 @@ bibliography: library.bib
 
 ## Intro
 
+Today:
+
 :::{.incremental}
-- You invited me for a keynote and it went to my head **immediately**
-- I want to do something extremely pretentious: set an agenda for this field
+- Set an agenda for this field
 - Try to convince you that:
   1. we've made good progress; and 
   2. that there is much more exciting work to do (**especially in Macro**)
-- Full disclosure: this is coming from someone who spends 90% of his time screaming at a computer
 :::
 
 ## A Research Program that Stands on Two Facts
@@ -485,10 +485,10 @@ colors = c("#221E1D","#63AA9C","#E9633B") # color scheme
 cback = "#fdf6e3"  ###"#f5f4ef"
 th_ = theme_minimal() + theme(rect = element_rect(fill = cback),panel.background = element_rect(fill = cback, color=cback),legend.position = "bottom",axis.title.y=element_text(vjust=1.2),legend.background = element_rect(fill=cback,color=cback),panel.border = element_blank())
 
-c_sub <- read.csv("/Users/joseph/Dropbox/Research Projects/WelfareMetaAnalysis/Data/Data_child_prepped.csv") %>%
+c_sub <- read.csv("~/Dropbox/Research Projects/WelfareMetaAnalysis/Data/Data_child_prepped.csv") %>%
   select(source, id)
 
-data <- read.csv("/Users/joseph/Dropbox/Research Projects/WelfareMetaAnalysis/Data/Data_prepped.csv") %>%
+data <- read.csv("~/Dropbox/Research Projects/WelfareMetaAnalysis/Data/Data_prepped.csv") %>%
   filter(!is.na(FS), !is.na(AFDC), !is.na(EMP))
 
 sipp <- data %>%
@@ -516,7 +516,7 @@ data <- data %>%
                                source=="MFIP" & app_status==3 ~ "Recipient",source=="MFIP" & app_status==2 ~ "Re-applicant",source=="MFIP" & app_status==1 ~ "New Applicant",
                                source=="SIPP" ~ "Rep. sample"))
 
-model <- read.csv("/Users/joseph/Dropbox/Research Projects/WelfareMetaAnalysis/julia/output/modelfit_exante_K5.csv") %>%
+model <- read.csv("~/Dropbox/Research Projects/WelfareMetaAnalysis/julia/output/modelfit_exante_K5.csv") %>%
   mutate(date = as.Date(paste(year, "-", 3 * (Q+1), "-01", sep = ""))) %>%
   select(-LOGFULL) %>%
   pivot_longer(cols=c("EMP","AFDC","EARN")) %>%
