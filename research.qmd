@@ -11,7 +11,7 @@ format:
 
 [A Structural Meta-analysis of Welfare Reform Experiments and Their Impacts on Children](/papers/WelfareMetaAnalysis_JPE_submission.pdf): accepted at the *Journal of Political Economy* ([appendix](/papers/WelfareMetaAnalysis_JPE_submission_OnlineAppendix.pdf), [replication files](https://github.com/josephmullins/welfare-meta-study), [slides](slides/WelfareMetaAnalysis.pdf))
 
-[Child skill production: Accounting for parental and market-based time and goods investments](papers/JPE_manuscript_20200669.pdf), with Elizabeth Caucutt, Lance Lochner, and Youngmin Park: accepted at *Journal of Political Economy* ([slides](slides/CLMP.pdf))
+[Child skill production: Accounting for parental and market-based time and goods investments](papers/Child_skill_production__Accounting_for_parental_and_market_based_time_and_goods_investments.pdf), with Elizabeth Caucutt, Lance Lochner, and Youngmin Park: accepted at *Journal of Political Economy* ([slides](slides/CLMP.pdf))
 
 
 ## Working Papers
