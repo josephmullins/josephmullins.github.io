@@ -7,7 +7,6 @@ format:
 
 ## Recently Accepted
 
-[Family Law Effects on Divorce, Fertility, and Child Investment](/papers/BFM_in_JOLE_Format-2.pdf), with Meta Brown and Christopher Flinn: accepted at the *Journal of Labor Economics* ([replication files](https://github.com/josephmullins/BFM))
 
 [A Structural Meta-analysis of Welfare Reform Experiments and Their Impacts on Children](/papers/WelfareMetaAnalysis_JPE_submission.pdf): accepted at the *Journal of Political Economy* ([appendix](/papers/WelfareMetaAnalysis_JPE_submission_OnlineAppendix.pdf), [replication files](https://github.com/josephmullins/welfare-meta-study), [slides](slides/WelfareMetaAnalysis.pdf))
 
@@ -19,11 +18,13 @@ format:
 
 [Firms' Choices of Wage-Setting Protocols](/papers/FirmChoices-RES.pdf), with Christopher Flinn: R&R at *Review of Economic Studies* ([slides](slides/FlinnMullins.pdf))
 
-[Designing Cash Transfers in the Presence of Children's Human Capital Formation](/papers/DesigningCashTransfers_Children_Draft.pdf): 2nd round at *Journal of Political Economy* ([slides](slides/DesigningCashTransfers.pdf))
+[Designing Cash Transfers in the Presence of Children's Human Capital Formation](/papers/designing_cash_transfers_draft.pdf): resubmitted to *Journal of Political Economy* ([slides](slides/DesigningCashTransfers.pdf))
 
 [Frictional Adjustment to Income Tax Incentives:  An Application to the Earned Income Tax Credit](/papers/MancinoMullins-EITC-Feb-2023.pdf), with Antonella Mancino: R&R at *Journal of Political Economy: Microeconomics* ([slides](slides/MancinoMullins_BSF_45m.pdf))
 
 ## Publications
+
+[Family Law Effects on Divorce, Fertility, and Child Investment](/papers/BFM_in_JOLE_Format-2.pdf), with Meta Brown and Christopher Flinn, *Journal of Labor Economics* 43S1 (2025)  ([replication files](https://github.com/josephmullins/BFM))
 
 [Labor Market Search and Schooling Investment](/papers/iere12108.pdf), with Christopher Flinn, *International Economic Review* 50 (May 2015)
 
