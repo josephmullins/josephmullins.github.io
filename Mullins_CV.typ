@@ -2,7 +2,6 @@
 
 // Put your personal information here, replacing mine
 #let name = "Joseph Mullins"
-#let location = "San Diego, CA"
 #let email = "mullinsj at umn dot edu"
 #let github = "github.com/josephmullins"
 #let linkedin = "linkedin.com/in/stuxf"
@@ -100,12 +99,12 @@ Classes:
 == Working Papers / Under Revision
 
 + #cite(<CashTrasnfers>,form: "full")
-+ #cite(<CLMP>,form: "full")
 + #cite(<FlinnMullins>, form: "full")
 + #cite(<MancinoMullins>,form: "full")
 
 == Publications
 
++ #cite(<CLMP>,form: "full")
 + #cite(<MetaAnalysis>,form: "full")
 + #cite(<BFM>,form:"full")
 + #cite(<ier>,form: "full")
@@ -115,7 +114,7 @@ Quarterly Journal of Economics, Journal of Political Economy, American Economic 
 
 == Presentations and Seminars
 === 2025
-AEA Annual Meeting, MEA Annual Meeting, Cornell, Leuven Summer Event
+AEA Annual Meeting, MEA Annual Meeting, Cornell, Leuven Summer Event, Barcelona Summer Forum, SED Annual Meeting, USC Marshall Macro Day (scheduled), Northwester (scheduled)
 
 === 2024
 OzMac: Australian Macroeconomic Workshop (keynote address),MEA Annual Meeting, SED Annual Meeting, University of Nebraska
