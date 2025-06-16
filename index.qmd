@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I'm an Assistant Professor of Economics at the University of Minnesota. My research focuses on inequality in the labor market and the economics of child development. 
+I'm an Assistant Professor of Economics at the University of Minnesota. My [research focuses](/other/research_statement.pdf) on inequality in the labor market and the economics of child development. 
 
 I recently gave a keynote talk, ["What's next for the economics of child development?"](/slides/mullins_keynote_ozmac.qmd), in which I lay out some of our progress in this field and outline future directions for research.
 
