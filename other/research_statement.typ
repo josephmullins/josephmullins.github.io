@@ -190,7 +190,7 @@ Next, the paper develops a model in which individuals find jobs through a random
 
 The estimated model not only replicates the empirical evidence in the short-run, it also provides a projection of long-run impacts. Here, results indicate that the long-run employment effect of the EITC is about 8 percentage points higher than the short-run impact. Likewise, the welfare impacts in the short-run are slightly less than half compared to the long-run. The paper then demonstrates how these two findings are connected by deriving a sufficient statistic for the welfare effects of a marginal expansion in the EITC that depends only on elasticities of the earnings distribution. Echoing the previous findings, evaluating this formula with short-run elasticities results in welfare effects that are slightly less than half of long-run impact.
 
-= Ongoing and Future Work
+= Ongoing Work
 
 In ongoing and future work I pursue my #link(<agenda>)[three-fold agenda] by continuing to study the relationship between policies, institutions, and human capital, and by developing tools to help researchers with similar interests. 
 
@@ -209,16 +209,30 @@ Theoretically, we show that for any estimator that imposes that the model constr
 
 We demonstrate the desirable properties of the estimator for three sets of models: a single agent dynamic discrete choice model, an industry equilibrium model, and a search model. 
 
-== A Structural Meta-Analysis of the Child Safety Net
+// == A Structural Meta-Analysis of the Child Safety Net
 
-An array of social programs provide a safety net to at-risk children and their families in the United States. These include food stamps, cash welfare, Medicaid, tax credits, and public provision of -- and subsidies for -- childcare. A vast literature has sought to assess, on a case-by-case basis, the short and long-run effects of these programs on child skill development and life-cycle outcomes.
+// An array of social programs provide a safety net to at-risk children and their families in the United States. These include food stamps, cash welfare, Medicaid, tax credits, and public provision of -- and subsidies for -- childcare. A vast literature has sought to assess, on a case-by-case basis, the short and long-run effects of these programs on child skill development and life-cycle outcomes.
 
-Despite the existence of a large body of evidence, many policy-relevant questions remain unanswered. What does the evidence collectively tell us about what inputs and resources matter for skill development? What would the effects be of marginally expanding these policies in different combinations, and what does the evidence suggest about how these policies could be optimally combined?
+// Despite the existence of a large body of evidence, many policy-relevant questions remain unanswered. What does the evidence collectively tell us about what inputs and resources matter for skill development? What would the effects be of marginally expanding these policies in different combinations, and what does the evidence suggest about how these policies could be optimally combined?
 
-In _Aggregating Evidence on the Child Safety Net for Policy Conclusions_ @GeneralMetaAnalysis, I adopt the conceptual and methodological innovations of #cite(<MetaAnalysis>,form: "prose") and conduct a structural meta-analysis of experimental and quasi-experimental evidence on the short and long-run effects of each safety net program on child outcomes. In order to do this, the paper develops a model of child development with inputs of parental time, medical care, nutrition, childcare, and other money inputs. The model allows for heterogeneity across individuals and cohorts in order to interpret evidence across shifting economic, demographic, and policy landscapes. By aggregating the evidence, the estimated model can provide answers to normative and positive policy questions not directly addressed by the evidence alone.
+// In _Aggregating Evidence on the Child Safety Net for Policy Conclusions_ @GeneralMetaAnalysis, I adopt the conceptual and methodological innovations of #cite(<MetaAnalysis>,form: "prose") and conduct a structural meta-analysis of experimental and quasi-experimental evidence on the short and long-run effects of each safety net program on child outcomes. In order to do this, the paper develops a model of child development with inputs of parental time, medical care, nutrition, childcare, and other money inputs. The model allows for heterogeneity across individuals and cohorts in order to interpret evidence across shifting economic, demographic, and policy landscapes. By aggregating the evidence, the estimated model can provide answers to normative and positive policy questions not directly addressed by the evidence alone.
 
 //== Skills and Task Assignment over the Life-Cycle
 
+= Future Work: Aggregating Evidence for Credible Policy Calculations
 
+Economics as a discipline has made important strides to theoretically enrich and quantify the human capital framework, providing powerful lessons for policy. A central premise of my research program is that much of this progress has been _divergent_ in the sense that high quality causal evidence on policies is accumulating without a theoretical framework to draw precise conclusions, while the best available model-based analyses of policy problems take a selective (or even blind) view of this evidence.
+
+In the coming years my goal is to pull these divergent paths together by bringing the best available evidence to bear on first order policy problems, echoing the conceptual and methodological approach in my past work @MetaAnalysis. Governments have a number of existing levers they can pull to create equality of opportunity in childhood and, potentially, to improve efficiency in the aggregate economy. These include (1) demand and supply-side interventions in the childcare market; (2) conditional and unconditional cash transfers; (3) in-kind transfers through food stamps, housing assistance, and health care; and (4) home-visiting and parenting interventions. Because we have not taken a full, model-based accounting of the available evidence on policies in each of these domains, we not have the best possible answers to many related and relevant policy problems. What does the evidence say about the optimal design of each of the above policies? How should governments best combine them? Where are marginal returns to expansion highest, and how does expanding one program change the returns to expanding another?
+
+*I intend to lead the field by taking a brick-by-brick approach to this agenda.* The many and varied conceptual and quantitative challenges will require incremental improvements to theory, econometric techniques, and computational methods. It will, for example, require extension of existing modeling frameworks to handle multiple inputs in the child development process, as well as multiple skill outcomes to better account for the rich and varied dimensions of life-cycle wellbeing and inequality. It requires careful examination of modeling assumptions that are (and are not) compatible with policy evidence in each dimension, thereby answering frontier research questions, including:
+
+1. Which combination of model ingredients can account for existing quasi-experimental and experimental evidence on the effect of cash transfers on child outcomes? 
+2. Is it sufficient to treat food stamps and health insurance as cash equivalent, or do nutrition and health inputs play a unique role in child skill formation? 
+3. Can we jointly model the quality of private, public, and informal childcare with available data on inputs, child outcomes, and quasi-experimental policy variation?
+
+// In light of my previous work @MetaAnalysis, these exercises will also require careful econometric treatment of the many dimensions of latent heterogeneity in data that can confound the comparison of evidence across data sources and policy contexts. Through
+
+In answering these and related questions, my goal is to influence and inform both future quantitative work as well as real-world policy design.
 
 #bibliography("bibliography.bib", style: "chicago-author-date")
