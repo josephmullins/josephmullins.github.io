@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -71,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,38 +110,36 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">About</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
-</header>
-
-
+</header> <div class="about-links">
+  <a href="https://github.com/josephmullins/" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+</div>
+      <div class="about-contents"><main class="content" id="quarto-document-content">
 <p>I’m an Assistant Professor of Economics at the University of Minnesota and a consultant at the Federal Reserve Bank of Minneapolis Opportunity and Inclusive Growth Institute. My <a href="./other/research_statement.pdf">research focuses</a> on inequality in the labor market and the economics of child development.</p>
 <p>I recently gave a keynote talk, <a href="./slides/mullins_keynote_ozmac.html">“What’s next for the economics of child development?”</a>, in which I lay out some of our progress in this field and outline future directions for research.</p>
 <p>Find my <a href="./research.html">research</a> here and <a href="Mullins_CV.pdf">my CV here</a>. I teach <a href="./teaching.html">three classes</a> periodically.</p>
 
 
-
-</main> <!-- /main -->
+</main></div>
+    </div>
+    <img src="other/headshot.jpg" class="about-image
+  rounded " style="width: 15em;">
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -163,13 +160,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
