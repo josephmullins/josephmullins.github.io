@@ -16,11 +16,11 @@ format:
 ## Working Papers
 
 
-[Firms' Choices of Wage-Setting Protocols](/papers/FirmChoices-RES.pdf), with Christopher Flinn: R&R at *Review of Economic Studies* ([slides](slides/FlinnMullins.pdf))
+[Firms' Choices of Wage-Setting Protocols](/papers/FirmChoices-RES-R1.pdf), with Christopher Flinn: resubmitted to *Review of Economic Studies* ([slides](slides/FlinnMullins.pdf))
 
 [Designing Cash Transfers in the Presence of Children's Human Capital Formation](/papers/designing_cash_transfers_draft.pdf): R&R at *Journal of Political Economy: Macroeconomics* ([slides](slides/DesigningCashTransfers.pdf))
 
-[Frictional Adjustment to Income Tax Incentives:  An Application to the Earned Income Tax Credit](/papers/MancinoMullins-EITC-Feb-2023.pdf), with Antonella Mancino: resubmitted to *Journal of Political Economy: Microeconomics* ([slides](slides/MancinoMullins_BSF_45m.pdf))
+[Frictional Adjustment to Income Tax Incentives:  An Application to the Earned Income Tax Credit](/papers/MancinoMullins-EITC-JPEMicro-R1.pdf), with Antonella Mancino: resubmitted to *Journal of Political Economy: Microeconomics* ([slides](slides/MancinoMullins_BSF_45m.pdf))
 
 ## Publications
 
